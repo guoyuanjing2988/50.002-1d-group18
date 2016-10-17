@@ -1,0 +1,14 @@
+module eightbitCMPEQ (
+    input z,  // reset
+    output out[8]
+  ) {
+  var x[8];
+  var i;
+  always {
+    x[0]=z;
+    for (i=1;i<8;i++){
+      x[i]=0;
+    }
+    out=x;
+  }
+}
