@@ -1,0 +1,30 @@
+module eightbitSRA (
+    input a[8],
+    input b[8],
+    output out[8]
+  ) {
+
+  var x[8];
+  var char;
+  always {
+    char=a[7];
+    x=a;
+    if (b[0]){
+      x=x>>1;
+      x[7]=char;
+    }
+    if (b[1]){
+      x=x>>2;
+      x[7]=char;
+      x[6]=char;
+    }
+    if (b[2]){
+      x=x>>4;
+      x[7]=char;
+      x[6]=char;
+      x[5]=char;
+      x[4]=char;
+    }
+    out=x;
+  }
+}
