@@ -4,7 +4,7 @@ module eightbitshiftright (
     output out[8]
   ) {
 
-  var x[8];
+  sig x[8];
   always {
     x=a;
     if (b[0]){

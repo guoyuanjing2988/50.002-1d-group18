@@ -5,7 +5,7 @@ module eightbitCMPLE (
       // reset
     output out[8]
   ) {
-  var x[8];
+  sig x[8];
   var i;
   always {
     x[0]=z|(n^v);

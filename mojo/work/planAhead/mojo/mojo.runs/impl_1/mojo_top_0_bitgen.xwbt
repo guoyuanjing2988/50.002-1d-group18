@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=H:\sophomore\Computation Structures\50.002-1d-group18\mojo\work\planAhead\mojo\mojo.runs\impl_1\mojo_top_0_routed.ncd
+OUTFILE=H:\sophomore\Computation Structures\50.002-1d-group18\mojo\work\planAhead\mojo\mojo.runs\impl_1\mojo_top_0.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=H:\sophomore\Computation Structures\50.002-1d-group18\mojo\work\planAhead\mojo\mojo.runs\impl_1
+LICENSE=WebPack
+USER_INFO=211250885_0_0_653

@@ -4,22 +4,29 @@ module eightbitSRA (
     output out[8]
   ) {
 
-  var x[8];
+  sig x[8];
   var char;
+  var i;
   always {
     char=a[7];
     x=a;
     if (b[0]){
-      x=x>>1;
+      for (i=0;i<7;i++){
+        x[i]=x[i+1];
+      }
       x[7]=char;
     }
     if (b[1]){
-      x=x>>2;
+      for (i=0;i<6;i++){
+        x[i]=x[i+2];
+      }
       x[7]=char;
       x[6]=char;
     }
     if (b[2]){
-      x=x>>4;
+      for (i=0;i<4;i++){
+        x[i]=x[i+4];
+      }
       x[7]=char;
       x[6]=char;
       x[5]=char;
