@@ -1,0 +1,20 @@
+module eightbitdotproduct (
+    input a[8],
+    input b[8],
+    output out[8]
+  ) {
+
+  var count;
+  var i;
+  always {
+    //calculate decimal result of dot product
+    for (i=0;i<8;i++){
+      count=count+a[i]*b[i];
+    }
+    //convert decimal number count to binary number out
+    for (i=0;i<8;i++){
+      out[i]=count-count/2*2;
+      count=count/2;
+    }
+  }
+}
