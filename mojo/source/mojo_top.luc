@@ -33,6 +33,14 @@ module mojo_top (
   eightbitCMPEQ cmpeq;
   eightbitCMPLT cmplt;
   eightbitCMPLE cmple;
+  eightbitdivider divider;
+  eightbitmultiplier multiplier;
+  eightbitmod modd;
+  eightbitxnor xnorr;
+  eightbitnor norr;
+  eightbitnand nandd;
+  eightbitdotproduct dotproduct;
+  eightbitnota nota;
   var z;
   var v;
   var n;
@@ -79,6 +87,21 @@ module mojo_top (
     cmple.z=z;
     cmple.v=v;
     cmple.n=n;
+    divider.a=io_dip[0];
+    divider.b=io_dip[1];
+    multiplier.a=io_dip[0];
+    multiplier.b=io_dip[1];
+    nota.a=io_dip[0];
+    norr.a=io_dip[0];
+    norr.b=io_dip[1];
+    nandd.a=io_dip[0];
+    nandd.b=io_dip[1];
+    xnorr.a=io_dip[0];
+    xnorr.b=io_dip[1];
+    dotproduct.a=io_dip[0];
+    dotproduct.b=io_dip[1];
+    modd.a=io_dip[0];
+    modd.b=io_dip[1];
     x=0;
     y=1;
     for (i=0;i<6;i++){
@@ -90,10 +113,18 @@ module mojo_top (
     
       0: a=adder.out;
       1: a=subtracter.out;
+      2: a=multiplier.out;
+      4: a=dotproduct.out;
+      8: a=divider.out;
+      16: a=modd.out;
       24: a=andd.out;
+      25: a=nandd.out;
       30: a=orr.out;
+      31: a=norr.out;
       22: a=xorr.out;
+      23: a=xnorr.out;
       26: a=equalsa.out;
+      27: a=nota.out;
       32: a=shiftleft.out;
       33: a=shiftright.out;
       35: a=sra.out;

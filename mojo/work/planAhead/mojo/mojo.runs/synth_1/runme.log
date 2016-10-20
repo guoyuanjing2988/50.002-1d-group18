@@ -9,6 +9,8 @@ Reading design: mojo_top_0.prj
 =========================================================================
 Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitxor_5.v" into library work
 Parsing module <eightbitxor_5>.
+Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitxnor_16.v" into library work
+Parsing module <eightbitxnor_16>.
 Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitsubtracter_2.v" into library work
 Parsing module <eightbitsubtracter_2>.
 Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_9.v" into library work
@@ -19,8 +21,22 @@ Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mo
 Parsing module <eightbitshiftleft_7>.
 Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitor_4.v" into library work
 Parsing module <eightbitor_4>.
+Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnota_20.v" into library work
+Parsing module <eightbitnota_20>.
+Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnor_17.v" into library work
+Parsing module <eightbitnor_17>.
+Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnand_18.v" into library work
+Parsing module <eightbitnand_18>.
+Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitmultiplier_14.v" into library work
+Parsing module <eightbitmultiplier_14>.
+Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitmod_15.v" into library work
+Parsing module <eightbitmod_15>.
 Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitequalsa_6.v" into library work
 Parsing module <eightbitequalsa_6>.
+Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdotproduct_19.v" into library work
+Parsing module <eightbitdotproduct_19>.
+Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdivider_13.v" into library work
+Parsing module <eightbitdivider_13>.
 Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitCMPLT_11.v" into library work
 Parsing module <eightbitCMPLT_11>.
 Analyzing Verilog file "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitCMPLE_12.v" into library work
@@ -70,12 +86,31 @@ Elaborating module <eightbitCMPEQ_10>.
 Elaborating module <eightbitCMPLT_11>.
 
 Elaborating module <eightbitCMPLE_12>.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 182: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 183: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 184: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 185: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 186: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 187: Result of 2-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <eightbitdivider_13>.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdivider_13.v" Line 38: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <eightbitmultiplier_14>.
+
+Elaborating module <eightbitmod_15>.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitmod_15.v" Line 38: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <eightbitxnor_16>.
+
+Elaborating module <eightbitnor_17>.
+
+Elaborating module <eightbitnand_18>.
+
+Elaborating module <eightbitdotproduct_19>.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdotproduct_19.v" Line 24: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <eightbitnota_20>.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 252: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 253: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 254: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 255: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 256: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 257: Result of 2-bit expression is truncated to fit in 1-bit target.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -93,17 +128,17 @@ WARNING:Xst:647 - Input <spi_mosi> is never used. This port will be preserved an
 WARNING:Xst:647 - Input <spi_sck> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <avr_tx> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <avr_rx_busy> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 3-bit adder for signal <n0083[2:0]> created at line 191.
-    Found 4-bit adder for signal <n0086[3:0]> created at line 191.
-    Found 5-bit adder for signal <n0089[4:0]> created at line 191.
-    Found 6-bit adder for signal <n0092[5:0]> created at line 191.
-    Found 7-bit adder for signal <_n0097> created at line 191.
-    Found 1-bit tristate buffer for signal <spi_miso> created at line 157
-    Found 1-bit tristate buffer for signal <spi_channel<3>> created at line 157
-    Found 1-bit tristate buffer for signal <spi_channel<2>> created at line 157
-    Found 1-bit tristate buffer for signal <spi_channel<1>> created at line 157
-    Found 1-bit tristate buffer for signal <spi_channel<0>> created at line 157
-    Found 1-bit tristate buffer for signal <avr_rx> created at line 157
+    Found 3-bit adder for signal <n0107[2:0]> created at line 276.
+    Found 4-bit adder for signal <n0110[3:0]> created at line 276.
+    Found 5-bit adder for signal <n0113[4:0]> created at line 276.
+    Found 6-bit adder for signal <n0116[5:0]> created at line 276.
+    Found 7-bit adder for signal <_n0121> created at line 276.
+    Found 1-bit tristate buffer for signal <spi_miso> created at line 227
+    Found 1-bit tristate buffer for signal <spi_channel<3>> created at line 227
+    Found 1-bit tristate buffer for signal <spi_channel<2>> created at line 227
+    Found 1-bit tristate buffer for signal <spi_channel<1>> created at line 227
+    Found 1-bit tristate buffer for signal <spi_channel<0>> created at line 227
+    Found 1-bit tristate buffer for signal <avr_rx> created at line 227
     Summary:
 	inferred   5 Adder/Subtractor(s).
 	inferred   6 Tristate(s).
@@ -184,26 +219,227 @@ Synthesizing Unit <eightbitCMPLE_12>.
     Summary:
 Unit <eightbitCMPLE_12> synthesized.
 
+Synthesizing Unit <eightbitdivider_13>.
+    Related source file is "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdivider_13.v".
+    Found 32-bit subtractor for signal <n0031> created at line 38.
+    Found 32-bit subtractor for signal <n0030> created at line 38.
+    Found 31-bit subtractor for signal <n0029> created at line 38.
+    Found 30-bit subtractor for signal <n0028> created at line 38.
+    Found 29-bit subtractor for signal <n0027> created at line 38.
+    Found 28-bit subtractor for signal <n0026> created at line 38.
+    Found 27-bit subtractor for signal <n0025> created at line 38.
+    Found 26-bit subtractor for signal <n0024> created at line 38.
+    Found 3-bit adder for signal <n0096[2:0]> created at line 27.
+    Found 4-bit adder for signal <n0099[3:0]> created at line 27.
+    Found 5-bit adder for signal <n0102[4:0]> created at line 27.
+    Found 6-bit adder for signal <n0105[5:0]> created at line 27.
+    Found 7-bit adder for signal <n0108[6:0]> created at line 27.
+    Found 8-bit adder for signal <n0111[7:0]> created at line 27.
+    Found 9-bit adder for signal <n0114[8:0]> created at line 27.
+    Found 3-bit adder for signal <n0117[2:0]> created at line 33.
+    Found 4-bit adder for signal <n0120[3:0]> created at line 33.
+    Found 5-bit adder for signal <n0123[4:0]> created at line 33.
+    Found 6-bit adder for signal <n0126[5:0]> created at line 33.
+    Found 7-bit adder for signal <n0129[6:0]> created at line 33.
+    Found 8-bit adder for signal <n0132[7:0]> created at line 33.
+    Found 9-bit adder for signal <n0135[8:0]> created at line 33.
+    Summary:
+	inferred  22 Adder/Subtractor(s).
+Unit <eightbitdivider_13> synthesized.
+
+Synthesizing Unit <div_10s_10s>.
+    Related source file is "".
+    Found 10-bit subtractor for signal <a[9]_unary_minus_1_OUT> created at line 0.
+    Found 10-bit subtractor for signal <b[9]_unary_minus_3_OUT> created at line 0.
+    Found 20-bit adder for signal <n0456> created at line 0.
+    Found 20-bit adder for signal <GND_15_o_b[9]_add_5_OUT> created at line 0.
+    Found 19-bit adder for signal <n0460> created at line 0.
+    Found 19-bit adder for signal <GND_15_o_b[9]_add_7_OUT> created at line 0.
+    Found 18-bit adder for signal <n0464> created at line 0.
+    Found 18-bit adder for signal <GND_15_o_b[9]_add_9_OUT> created at line 0.
+    Found 17-bit adder for signal <n0468> created at line 0.
+    Found 17-bit adder for signal <GND_15_o_b[9]_add_11_OUT> created at line 0.
+    Found 16-bit adder for signal <n0472> created at line 0.
+    Found 16-bit adder for signal <GND_15_o_b[9]_add_13_OUT> created at line 0.
+    Found 15-bit adder for signal <n0476> created at line 0.
+    Found 15-bit adder for signal <GND_15_o_b[9]_add_15_OUT> created at line 0.
+    Found 14-bit adder for signal <n0480> created at line 0.
+    Found 14-bit adder for signal <GND_15_o_b[9]_add_17_OUT> created at line 0.
+    Found 13-bit adder for signal <n0484> created at line 0.
+    Found 13-bit adder for signal <GND_15_o_b[9]_add_19_OUT> created at line 0.
+    Found 12-bit adder for signal <n0488> created at line 0.
+    Found 12-bit adder for signal <GND_15_o_b[9]_add_21_OUT> created at line 0.
+    Found 11-bit adder for signal <n0492> created at line 0.
+    Found 11-bit adder for signal <GND_15_o_b[9]_add_23_OUT> created at line 0.
+    Found 11-bit adder for signal <GND_15_o_BUS_0001_add_26_OUT[10:0]> created at line 0.
+    Found 20-bit comparator greater for signal <BUS_0001_INV_206_o> created at line 0
+    Found 19-bit comparator greater for signal <BUS_0002_INV_205_o> created at line 0
+    Found 18-bit comparator greater for signal <BUS_0003_INV_204_o> created at line 0
+    Found 17-bit comparator greater for signal <BUS_0004_INV_203_o> created at line 0
+    Found 16-bit comparator greater for signal <BUS_0005_INV_202_o> created at line 0
+    Found 15-bit comparator greater for signal <BUS_0006_INV_201_o> created at line 0
+    Found 14-bit comparator greater for signal <BUS_0007_INV_200_o> created at line 0
+    Found 13-bit comparator greater for signal <BUS_0008_INV_199_o> created at line 0
+    Found 12-bit comparator greater for signal <BUS_0009_INV_198_o> created at line 0
+    Found 11-bit comparator greater for signal <BUS_0010_INV_197_o> created at line 0
+    Found 10-bit comparator greater for signal <BUS_0011_INV_196_o> created at line 0
+    Summary:
+	inferred  23 Adder/Subtractor(s).
+	inferred  11 Comparator(s).
+	inferred  94 Multiplexer(s).
+Unit <div_10s_10s> synthesized.
+
+Synthesizing Unit <eightbitmultiplier_14>.
+    Related source file is "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitmultiplier_14.v".
+    Found 8x8-bit multiplier for signal <n0003> created at line 16.
+    Summary:
+	inferred   1 Multiplier(s).
+Unit <eightbitmultiplier_14> synthesized.
+
+Synthesizing Unit <eightbitmod_15>.
+    Related source file is "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitmod_15.v".
+    Found 22-bit subtractor for signal <GND_19_o_GND_19_o_sub_17_OUT> created at line 36.
+    Found 32-bit subtractor for signal <n0033> created at line 38.
+    Found 32-bit subtractor for signal <n0032> created at line 38.
+    Found 31-bit subtractor for signal <n0031> created at line 38.
+    Found 30-bit subtractor for signal <n0030> created at line 38.
+    Found 29-bit subtractor for signal <n0029> created at line 38.
+    Found 28-bit subtractor for signal <n0028> created at line 38.
+    Found 27-bit subtractor for signal <n0027> created at line 38.
+    Found 26-bit subtractor for signal <n0026> created at line 38.
+    Found 3-bit adder for signal <n0103[2:0]> created at line 27.
+    Found 4-bit adder for signal <n0106[3:0]> created at line 27.
+    Found 5-bit adder for signal <n0109[4:0]> created at line 27.
+    Found 6-bit adder for signal <n0112[5:0]> created at line 27.
+    Found 7-bit adder for signal <n0115[6:0]> created at line 27.
+    Found 8-bit adder for signal <n0118[7:0]> created at line 27.
+    Found 9-bit adder for signal <n0121[8:0]> created at line 27.
+    Found 3-bit adder for signal <n0124[2:0]> created at line 33.
+    Found 4-bit adder for signal <n0127[3:0]> created at line 33.
+    Found 5-bit adder for signal <n0130[4:0]> created at line 33.
+    Found 6-bit adder for signal <n0133[5:0]> created at line 33.
+    Found 7-bit adder for signal <n0136[6:0]> created at line 33.
+    Found 8-bit adder for signal <n0139[7:0]> created at line 33.
+    Found 9-bit adder for signal <n0142[8:0]> created at line 33.
+    Found 11x10-bit multiplier for signal <GND_19_o_GND_19_o_MuLt_15_OUT> created at line 36.
+    Summary:
+	inferred   1 Multiplier(s).
+	inferred  23 Adder/Subtractor(s).
+Unit <eightbitmod_15> synthesized.
+
+Synthesizing Unit <eightbitxnor_16>.
+    Related source file is "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitxnor_16.v".
+    Summary:
+Unit <eightbitxnor_16> synthesized.
+
+Synthesizing Unit <eightbitnor_17>.
+    Related source file is "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnor_17.v".
+    Summary:
+	no macro.
+Unit <eightbitnor_17> synthesized.
+
+Synthesizing Unit <eightbitnand_18>.
+    Related source file is "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnand_18.v".
+    Summary:
+	no macro.
+Unit <eightbitnand_18> synthesized.
+
+Synthesizing Unit <eightbitdotproduct_19>.
+    Related source file is "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdotproduct_19.v".
+    Found 32-bit subtractor for signal <n0034> created at line 24.
+    Found 32-bit subtractor for signal <n0033> created at line 24.
+    Found 31-bit subtractor for signal <n0032> created at line 24.
+    Found 30-bit subtractor for signal <n0031> created at line 24.
+    Found 29-bit subtractor for signal <n0030> created at line 24.
+    Found 28-bit subtractor for signal <n0029> created at line 24.
+    Found 27-bit subtractor for signal <n0028> created at line 24.
+    Found 26-bit subtractor for signal <n0027> created at line 24.
+    Found 32-bit adder for signal <_n0116> created at line 21.
+    Found 32-bit adder for signal <_n0117> created at line 21.
+    Found 32-bit adder for signal <_n0118> created at line 21.
+    Found 32-bit adder for signal <_n0119> created at line 21.
+    Found 32-bit adder for signal <_n0120> created at line 21.
+    Found 32-bit adder for signal <_n0121> created at line 21.
+    Found 32-bit adder for signal <_n0122> created at line 21.
+    Found 32-bit adder for signal <count> created at line 21.
+    Found 1x1-bit multiplier for signal <a[0]_b[0]_MuLt_0_OUT> created at line 21.
+    Found 1x1-bit multiplier for signal <a[1]_b[1]_MuLt_2_OUT> created at line 21.
+    Found 1x1-bit multiplier for signal <a[2]_b[2]_MuLt_4_OUT> created at line 21.
+    Found 1x1-bit multiplier for signal <a[3]_b[3]_MuLt_6_OUT> created at line 21.
+    Found 1x1-bit multiplier for signal <a[4]_b[4]_MuLt_8_OUT> created at line 21.
+    Found 1x1-bit multiplier for signal <a[5]_b[5]_MuLt_10_OUT> created at line 21.
+    Found 1x1-bit multiplier for signal <a[6]_b[6]_MuLt_12_OUT> created at line 21.
+    Found 1x1-bit multiplier for signal <a[7]_b[7]_MuLt_14_OUT> created at line 21.
+    Summary:
+	inferred   8 Multiplier(s).
+	inferred  16 Adder/Subtractor(s).
+Unit <eightbitdotproduct_19> synthesized.
+
+Synthesizing Unit <eightbitnota_20>.
+    Related source file is "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnota_20.v".
+    Summary:
+	no macro.
+Unit <eightbitnota_20> synthesized.
+
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 7
- 3-bit adder                                           : 1
- 4-bit adder                                           : 1
- 5-bit adder                                           : 1
- 6-bit adder                                           : 1
- 7-bit adder                                           : 1
+# Multipliers                                          : 10
+ 11x10-bit multiplier                                  : 1
+ 1x1-bit multiplier                                    : 8
+ 8x8-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 114
+ 10-bit subtractor                                     : 4
+ 11-bit adder                                          : 6
+ 12-bit adder                                          : 4
+ 13-bit adder                                          : 4
+ 14-bit adder                                          : 4
+ 15-bit adder                                          : 4
+ 16-bit adder                                          : 4
+ 17-bit adder                                          : 4
+ 18-bit adder                                          : 4
+ 19-bit adder                                          : 4
+ 20-bit adder                                          : 4
+ 22-bit subtractor                                     : 1
+ 26-bit subtractor                                     : 3
+ 27-bit subtractor                                     : 3
+ 28-bit subtractor                                     : 3
+ 29-bit subtractor                                     : 3
+ 3-bit adder                                           : 5
+ 30-bit subtractor                                     : 3
+ 31-bit subtractor                                     : 3
+ 32-bit adder                                          : 8
+ 32-bit subtractor                                     : 6
+ 4-bit adder                                           : 5
+ 5-bit adder                                           : 5
+ 6-bit adder                                           : 5
+ 7-bit adder                                           : 5
+ 8-bit adder                                           : 4
  8-bit subtractor                                      : 1
- 9-bit adder                                           : 1
-# Multiplexers                                         : 27
- 1-bit 2-to-1 multiplexer                              : 21
+ 9-bit adder                                           : 5
+# Comparators                                          : 22
+ 10-bit comparator greater                             : 2
+ 11-bit comparator greater                             : 2
+ 12-bit comparator greater                             : 2
+ 13-bit comparator greater                             : 2
+ 14-bit comparator greater                             : 2
+ 15-bit comparator greater                             : 2
+ 16-bit comparator greater                             : 2
+ 17-bit comparator greater                             : 2
+ 18-bit comparator greater                             : 2
+ 19-bit comparator greater                             : 2
+ 20-bit comparator greater                             : 2
+# Multiplexers                                         : 215
+ 1-bit 2-to-1 multiplexer                              : 201
+ 10-bit 2-to-1 multiplexer                             : 6
+ 11-bit 2-to-1 multiplexer                             : 2
  8-bit 2-to-1 multiplexer                              : 6
 # Tristates                                            : 6
  1-bit tristate buffer                                 : 6
-# Xors                                                 : 3
- 1-bit xor2                                            : 2
- 8-bit xor2                                            : 1
+# Xors                                                 : 6
+ 1-bit xor2                                            : 4
+ 8-bit xor2                                            : 2
 
 =========================================================================
 
@@ -212,26 +448,80 @@ Macro Statistics
 =========================================================================
 
 
+Synthesizing (advanced) Unit <eightbitdivider_13>.
+	The following adders/subtractors are grouped into adder tree <Madd_n0114[8:0]1> :
+ 	<Madd_n0099[3:0]_Madd> in block <eightbitdivider_13>, 	<Madd_n0102[4:0]> in block <eightbitdivider_13>, 	<Madd_n0105[5:0]> in block <eightbitdivider_13>, 	<Madd_n0108[6:0]> in block <eightbitdivider_13>, 	<Madd_n0111[7:0]> in block <eightbitdivider_13>, 	<Madd_n0114[8:0]> in block <eightbitdivider_13>.
+	The following adders/subtractors are grouped into adder tree <Madd_n0135[8:0]1> :
+ 	<Madd_n0120[3:0]_Madd> in block <eightbitdivider_13>, 	<Madd_n0123[4:0]> in block <eightbitdivider_13>, 	<Madd_n0126[5:0]> in block <eightbitdivider_13>, 	<Madd_n0129[6:0]> in block <eightbitdivider_13>, 	<Madd_n0132[7:0]> in block <eightbitdivider_13>, 	<Madd_n0135[8:0]> in block <eightbitdivider_13>.
+Unit <eightbitdivider_13> synthesized (advanced).
+
+Synthesizing (advanced) Unit <eightbitdotproduct_19>.
+	The following adders/subtractors are grouped into adder tree <Madd_count1> :
+ 	<Madd_count> in block <eightbitdotproduct_19>, 	<Madd__n0116> in block <eightbitdotproduct_19>, 	<Madd__n0117> in block <eightbitdotproduct_19>, 	<Madd__n0119> in block <eightbitdotproduct_19>, 	<Madd__n0120> in block <eightbitdotproduct_19>.
+	The following adders/subtractors are grouped into adder tree <Madd__n01221> :
+ 	<Madd__n0118> in block <eightbitdotproduct_19>, 	<Madd__n0121> in block <eightbitdotproduct_19>.
+	Multiplier <Mmult_a[7]_b[7]_MuLt_14_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd7> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[7]_b[7]_MuLt_14_OUT>.
+	Multiplier <Mmult_a[6]_b[6]_MuLt_12_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd6> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[6]_b[6]_MuLt_12_OUT>.
+	Multiplier <Mmult_a[5]_b[5]_MuLt_10_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd5> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[5]_b[5]_MuLt_10_OUT>.
+	Multiplier <Mmult_a[4]_b[4]_MuLt_8_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd4> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[4]_b[4]_MuLt_8_OUT>.
+	Multiplier <Mmult_a[3]_b[3]_MuLt_6_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd3> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[3]_b[3]_MuLt_6_OUT>.
+	Multiplier <Mmult_a[2]_b[2]_MuLt_4_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd2> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[2]_b[2]_MuLt_4_OUT>.
+	Multiplier <Mmult_a[1]_b[1]_MuLt_2_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd1> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[1]_b[1]_MuLt_2_OUT>.
+	Multiplier <Mmult_a[0]_b[0]_MuLt_0_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[0]_b[0]_MuLt_0_OUT>.
+Unit <eightbitdotproduct_19> synthesized (advanced).
+
+Synthesizing (advanced) Unit <eightbitmod_15>.
+	The following adders/subtractors are grouped into adder tree <Madd_n0121[8:0]1> :
+ 	<Madd_n0106[3:0]_Madd> in block <eightbitmod_15>, 	<Madd_n0109[4:0]> in block <eightbitmod_15>, 	<Madd_n0112[5:0]> in block <eightbitmod_15>, 	<Madd_n0115[6:0]> in block <eightbitmod_15>, 	<Madd_n0118[7:0]> in block <eightbitmod_15>, 	<Madd_n0121[8:0]> in block <eightbitmod_15>.
+	The following adders/subtractors are grouped into adder tree <Madd_n0142[8:0]1> :
+ 	<Madd_n0127[3:0]_Madd> in block <eightbitmod_15>, 	<Madd_n0130[4:0]> in block <eightbitmod_15>, 	<Madd_n0133[5:0]> in block <eightbitmod_15>, 	<Madd_n0136[6:0]> in block <eightbitmod_15>, 	<Madd_n0139[7:0]> in block <eightbitmod_15>, 	<Madd_n0142[8:0]> in block <eightbitmod_15>.
+	Multiplier <Mmult_GND_19_o_GND_19_o_MuLt_15_OUT> in block <eightbitmod_15> and adder/subtractor <Msub_GND_19_o_GND_19_o_sub_17_OUT_Madd> in block <eightbitmod_15> are combined into a MAC<Maddsub_GND_19_o_GND_19_o_MuLt_15_OUT>.
+Unit <eightbitmod_15> synthesized (advanced).
+
 Synthesizing (advanced) Unit <mojo_top_0>.
-	The following adders/subtractors are grouped into adder tree <Madd__n00971> :
- 	<Madd_n0086[3:0]_Madd> in block <mojo_top_0>, 	<Madd_n0089[4:0]> in block <mojo_top_0>, 	<Madd_n0092[5:0]> in block <mojo_top_0>, 	<Madd__n0097> in block <mojo_top_0>.
+	The following adders/subtractors are grouped into adder tree <Madd__n01211> :
+ 	<Madd_n0110[3:0]_Madd> in block <mojo_top_0>, 	<Madd_n0113[4:0]> in block <mojo_top_0>, 	<Madd_n0116[5:0]> in block <mojo_top_0>, 	<Madd__n0121> in block <mojo_top_0>.
 Unit <mojo_top_0> synthesized (advanced).
 
 =========================================================================
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 2
+# MACs                                                 : 9
+ 11x10-to-8-bit MAC                                    : 1
+ 1x1-to-32-bit MAC                                     : 8
+# Multipliers                                          : 1
+ 8x8-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 52
+ 1-bit subtractor                                      : 24
+ 10-bit adder carry in                                 : 20
+ 10-bit subtractor                                     : 4
+ 11-bit adder                                          : 2
  8-bit subtractor                                      : 1
  9-bit adder                                           : 1
-# Adder Trees                                          : 1
+# Adder Trees                                          : 5
  7-bit / 5-inputs adder tree                           : 1
-# Multiplexers                                         : 27
- 1-bit 2-to-1 multiplexer                              : 21
+ 9-bit / 7-inputs adder tree                           : 4
+# Comparators                                          : 22
+ 10-bit comparator greater                             : 2
+ 11-bit comparator greater                             : 2
+ 12-bit comparator greater                             : 2
+ 13-bit comparator greater                             : 2
+ 14-bit comparator greater                             : 2
+ 15-bit comparator greater                             : 2
+ 16-bit comparator greater                             : 2
+ 17-bit comparator greater                             : 2
+ 18-bit comparator greater                             : 2
+ 19-bit comparator greater                             : 2
+ 20-bit comparator greater                             : 2
+# Multiplexers                                         : 215
+ 1-bit 2-to-1 multiplexer                              : 201
+ 10-bit 2-to-1 multiplexer                             : 6
+ 11-bit 2-to-1 multiplexer                             : 2
  8-bit 2-to-1 multiplexer                              : 6
-# Xors                                                 : 3
- 1-bit xor2                                            : 2
- 8-bit xor2                                            : 1
+# Xors                                                 : 6
+ 1-bit xor2                                            : 4
+ 8-bit xor2                                            : 2
 
 =========================================================================
 
@@ -241,9 +531,11 @@ Macro Statistics
 
 Optimizing unit <mojo_top_0> ...
 
+Optimizing unit <div_10s_10s> ...
+
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 0) on block mojo_top_0, actual ratio is 2.
+Found area constraint ratio of 100 (+ 0) on block mojo_top_0, actual ratio is 9.
 
 Final Macro Processing ...
 
@@ -283,6 +575,6 @@ Speed Grade: -2
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 10.796ns
+   Maximum combinational path delay: 47.688ns
 
 =========================================================================

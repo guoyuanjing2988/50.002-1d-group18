@@ -139,6 +139,76 @@ module mojo_top_0 (
     .out(M_cmple_out)
   );
   
+  wire [8-1:0] M_divider_out;
+  reg [8-1:0] M_divider_a;
+  reg [8-1:0] M_divider_b;
+  eightbitdivider_13 divider (
+    .a(M_divider_a),
+    .b(M_divider_b),
+    .out(M_divider_out)
+  );
+  
+  wire [8-1:0] M_multiplier_out;
+  reg [8-1:0] M_multiplier_a;
+  reg [8-1:0] M_multiplier_b;
+  eightbitmultiplier_14 multiplier (
+    .a(M_multiplier_a),
+    .b(M_multiplier_b),
+    .out(M_multiplier_out)
+  );
+  
+  wire [8-1:0] M_modd_out;
+  reg [8-1:0] M_modd_a;
+  reg [8-1:0] M_modd_b;
+  eightbitmod_15 modd (
+    .a(M_modd_a),
+    .b(M_modd_b),
+    .out(M_modd_out)
+  );
+  
+  wire [8-1:0] M_xnorr_out;
+  reg [8-1:0] M_xnorr_a;
+  reg [8-1:0] M_xnorr_b;
+  eightbitxnor_16 xnorr (
+    .a(M_xnorr_a),
+    .b(M_xnorr_b),
+    .out(M_xnorr_out)
+  );
+  
+  wire [8-1:0] M_norr_out;
+  reg [8-1:0] M_norr_a;
+  reg [8-1:0] M_norr_b;
+  eightbitnor_17 norr (
+    .a(M_norr_a),
+    .b(M_norr_b),
+    .out(M_norr_out)
+  );
+  
+  wire [8-1:0] M_nandd_out;
+  reg [8-1:0] M_nandd_a;
+  reg [8-1:0] M_nandd_b;
+  eightbitnand_18 nandd (
+    .a(M_nandd_a),
+    .b(M_nandd_b),
+    .out(M_nandd_out)
+  );
+  
+  wire [8-1:0] M_dotproduct_out;
+  reg [8-1:0] M_dotproduct_a;
+  reg [8-1:0] M_dotproduct_b;
+  eightbitdotproduct_19 dotproduct (
+    .a(M_dotproduct_a),
+    .b(M_dotproduct_b),
+    .out(M_dotproduct_out)
+  );
+  
+  wire [8-1:0] M_nota_out;
+  reg [8-1:0] M_nota_a;
+  eightbitnota_20 nota (
+    .a(M_nota_a),
+    .out(M_nota_out)
+  );
+  
   integer z;
   
   integer v;
@@ -185,6 +255,21 @@ module mojo_top_0 (
     M_cmple_z = z;
     M_cmple_v = v;
     M_cmple_n = n;
+    M_divider_a = io_dip[0+7-:8];
+    M_divider_b = io_dip[8+7-:8];
+    M_multiplier_a = io_dip[0+7-:8];
+    M_multiplier_b = io_dip[8+7-:8];
+    M_nota_a = io_dip[0+7-:8];
+    M_norr_a = io_dip[0+7-:8];
+    M_norr_b = io_dip[8+7-:8];
+    M_nandd_a = io_dip[0+7-:8];
+    M_nandd_b = io_dip[8+7-:8];
+    M_xnorr_a = io_dip[0+7-:8];
+    M_xnorr_b = io_dip[8+7-:8];
+    M_dotproduct_a = io_dip[0+7-:8];
+    M_dotproduct_b = io_dip[8+7-:8];
+    M_modd_a = io_dip[0+7-:8];
+    M_modd_b = io_dip[8+7-:8];
     x = 1'h0;
     y = 1'h1;
     for (i = 1'h0; i < 3'h6; i = i + 1) begin
@@ -200,17 +285,41 @@ module mojo_top_0 (
       1'h1: begin
         a = M_subtracter_out;
       end
+      2'h2: begin
+        a = M_multiplier_out;
+      end
+      3'h4: begin
+        a = M_dotproduct_out;
+      end
+      4'h8: begin
+        a = M_divider_out;
+      end
+      5'h10: begin
+        a = M_modd_out;
+      end
       5'h18: begin
         a = M_andd_out;
+      end
+      5'h19: begin
+        a = M_nandd_out;
       end
       5'h1e: begin
         a = M_orr_out;
       end
+      5'h1f: begin
+        a = M_norr_out;
+      end
       5'h16: begin
         a = M_xorr_out;
       end
+      5'h17: begin
+        a = M_xnorr_out;
+      end
       5'h1a: begin
         a = M_equalsa_out;
+      end
+      5'h1b: begin
+        a = M_nota_out;
       end
       6'h20: begin
         a = M_shiftleft_out;
