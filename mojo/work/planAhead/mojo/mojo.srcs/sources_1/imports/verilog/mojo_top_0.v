@@ -5,26 +5,15 @@
 */
 
 module mojo_top_0 (
-    input clk,
-    input rst_n,
-    input cclk,
     output reg spi_miso,
-    input spi_ss,
-    input spi_mosi,
-    input spi_sck,
     output reg [3:0] spi_channel,
-    input avr_tx,
     output reg avr_rx,
-    input avr_rx_busy,
     output reg [23:0] io_led,
     output reg [7:0] led,
-    input [4:0] io_button,
     input [23:0] io_dip
   );
   
   
-  
-  reg rst;
   
   wire [8-1:0] M_adder_out;
   wire [1-1:0] M_adder_z;
@@ -223,8 +212,6 @@ module mojo_top_0 (
   
   reg [7:0] a;
   
-  reg [3:0] b;
-  
   always @* begin
     spi_miso = 1'bz;
     spi_channel = 4'bzzzz;
@@ -342,12 +329,6 @@ module mojo_top_0 (
       end
     endcase
     io_led[16+7-:8] = a;
-    x = 1'h0;
-    y = 1'h1;
-    for (i = 1'h0; i < 4'h8; i = i + 1) begin
-      x = x + y * a[(i)*1+0-:1];
-      y = y * 2'h2;
-    end
     io_led[0+7-:8] = io_dip[0+7-:8];
     io_led[8+7-:8] = io_dip[8+7-:8];
     led = 1'h0;

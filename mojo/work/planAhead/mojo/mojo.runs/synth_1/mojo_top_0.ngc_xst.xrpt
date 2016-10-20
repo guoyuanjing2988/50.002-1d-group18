@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Thu Oct 20 17:37:50 2016">
+  <application stringID="Xst" timeStamp="Thu Oct 20 17:54:03 2016">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -118,8 +118,8 @@
       <section stringID="XST_PRIMITIVE_AND_BLACK_BOX_USAGE">
         <item dataType="int" stringID="XST_BELS" value="545">
           <item dataType="int" stringID="XST_GND" value="7"/>
-          <item dataType="int" stringID="XST_LUT2" value="28"/>
-          <item dataType="int" stringID="XST_LUT3" value="60"/>
+          <item dataType="int" stringID="XST_LUT2" value="27"/>
+          <item dataType="int" stringID="XST_LUT3" value="61"/>
           <item dataType="int" stringID="XST_LUT4" value="91"/>
           <item dataType="int" stringID="XST_LUT5" value="68"/>
           <item dataType="int" stringID="XST_LUT6" value="110"/>
@@ -144,7 +144,7 @@
       <item AVAILABLE="357" dataType="int" label="Number with an unused LUT" stringID="XST_NUMBER_WITH_AN_UNUSED_LUT" value="0"/>
       <item AVAILABLE="357" dataType="int" label="Number of fully used LUT-FF pairs" stringID="XST_NUMBER_OF_FULLY_USED_LUTFF_PAIRS" value="0"/>
       <item dataType="int" label="Number of unique control sets" stringID="XST_NUMBER_OF_UNIQUE_CONTROL_SETS" value="0"/>
-      <item dataType="int" label="Number of IOs" stringID="XST_NUMBER_OF_IOS" value="75"/>
+      <item dataType="int" label="Number of IOs" stringID="XST_NUMBER_OF_IOS" value="62"/>
       <item AVAILABLE="102" dataType="int" label="Number of bonded IOBs" stringID="XST_NUMBER_OF_BONDED_IOBS" value="60"/>
     </section>
     <section stringID="XST_PARTITION_RESOURCE_SUMMARY">
@@ -152,7 +152,7 @@
     </section>
     <section stringID="XST_ERRORS_STATISTICS">
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="0"/>
-      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="33"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="24"/>
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="0"/>
     </section>
   </application>

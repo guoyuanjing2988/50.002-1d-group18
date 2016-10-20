@@ -19,14 +19,11 @@ module eightbitadder_1 (
   
   reg [8:0] y;
   
-  integer f;
-  
   always @* begin
     x = a + b;
     y = a + b;
     out = x;
-    f = x & 7'h7f;
-    if (f == 1'h0) begin
+    if (x == 1'h0) begin
       z = 1'h1;
     end else begin
       z = 1'h0;

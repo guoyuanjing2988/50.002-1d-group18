@@ -151,15 +151,15 @@ Elaborating module <eightbitdotproduct_19>.
 WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdotproduct_19.v" Line 24: Result of 32-bit expression is truncated to fit in 1-bit target.
 
 Elaborating module <eightbitnota_20>.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 253: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 254: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 255: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 256: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 257: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 258: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 354: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 355: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 356: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 240: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 241: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 242: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 243: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 244: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 245: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 335: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 336: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 337: Result of 2-bit expression is truncated to fit in 1-bit target.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -167,27 +167,18 @@ WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18
 
 Synthesizing Unit <mojo_top_0>.
     Related source file is "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v".
-WARNING:Xst:647 - Input <io_button> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <io_dip<23:22>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <rst_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <cclk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <spi_ss> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <spi_mosi> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <spi_sck> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <avr_tx> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <avr_rx_busy> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 3-bit adder for signal <n0110[2:0]> created at line 277.
-    Found 4-bit adder for signal <n0113[3:0]> created at line 277.
-    Found 5-bit adder for signal <n0116[4:0]> created at line 277.
-    Found 6-bit adder for signal <n0119[5:0]> created at line 277.
-    Found 7-bit adder for signal <_n0124> created at line 277.
-    Found 1-bit tristate buffer for signal <spi_miso> created at line 228
-    Found 1-bit tristate buffer for signal <spi_channel<3>> created at line 228
-    Found 1-bit tristate buffer for signal <spi_channel<2>> created at line 228
-    Found 1-bit tristate buffer for signal <spi_channel<1>> created at line 228
-    Found 1-bit tristate buffer for signal <spi_channel<0>> created at line 228
-    Found 1-bit tristate buffer for signal <avr_rx> created at line 228
+    Found 3-bit adder for signal <n0109[2:0]> created at line 264.
+    Found 4-bit adder for signal <n0112[3:0]> created at line 264.
+    Found 5-bit adder for signal <n0115[4:0]> created at line 264.
+    Found 6-bit adder for signal <n0118[5:0]> created at line 264.
+    Found 7-bit adder for signal <_n0123> created at line 264.
+    Found 1-bit tristate buffer for signal <spi_miso> created at line 215
+    Found 1-bit tristate buffer for signal <spi_channel<3>> created at line 215
+    Found 1-bit tristate buffer for signal <spi_channel<2>> created at line 215
+    Found 1-bit tristate buffer for signal <spi_channel<1>> created at line 215
+    Found 1-bit tristate buffer for signal <spi_channel<0>> created at line 215
+    Found 1-bit tristate buffer for signal <avr_rx> created at line 215
     Summary:
 	inferred   5 Adder/Subtractor(s).
 	inferred   6 Tristate(s).
@@ -195,7 +186,7 @@ Unit <mojo_top_0> synthesized.
 
 Synthesizing Unit <eightbitadder_1>.
     Related source file is "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitadder_1.v".
-    Found 9-bit adder for signal <n0014> created at line 25.
+    Found 9-bit adder for signal <n0011> created at line 23.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 Unit <eightbitadder_1> synthesized.
@@ -528,8 +519,8 @@ Synthesizing (advanced) Unit <eightbitmod_15>.
 Unit <eightbitmod_15> synthesized (advanced).
 
 Synthesizing (advanced) Unit <mojo_top_0>.
-	The following adders/subtractors are grouped into adder tree <Madd__n01241> :
- 	<Madd_n0113[3:0]_Madd> in block <mojo_top_0>, 	<Madd_n0116[4:0]> in block <mojo_top_0>, 	<Madd_n0119[5:0]> in block <mojo_top_0>, 	<Madd__n0124> in block <mojo_top_0>.
+	The following adders/subtractors are grouped into adder tree <Madd__n01231> :
+ 	<Madd_n0112[3:0]_Madd> in block <mojo_top_0>, 	<Madd_n0115[4:0]> in block <mojo_top_0>, 	<Madd_n0118[5:0]> in block <mojo_top_0>, 	<Madd__n0123> in block <mojo_top_0>.
 Unit <mojo_top_0> synthesized (advanced).
 
 =========================================================================
@@ -615,8 +606,8 @@ Primitive and Black Box Usage:
 ------------------------------
 # BELS                             : 545
 #      GND                         : 7
-#      LUT2                        : 28
-#      LUT3                        : 60
+#      LUT2                        : 27
+#      LUT3                        : 61
 #      LUT4                        : 91
 #      LUT5                        : 68
 #      LUT6                        : 110
@@ -649,7 +640,7 @@ Slice Logic Distribution:
    Number of unique control sets:         0
 
 IO Utilization: 
- Number of IOs:                          75
+ Number of IOs:                          62
  Number of bonded IOBs:                  60  out of    102    58%  
 
 Specific Feature Utilization:
@@ -694,7 +685,7 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 9595595861374 / 27
+  Total number of paths / destination ports: 9595595861420 / 27
 -------------------------------------------------------------------------
 Delay:               47.688ns (Levels of Logic = 44)
   Source:            io_dip<11> (PAD)
@@ -763,13 +754,13 @@ Cross Clock Domains Report:
 
 
 Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 9.37 secs
+Total CPU time to Xst completion: 9.70 secs
  
 --> 
 
 Total memory usage is 302340 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   33 (   0 filtered)
+Number of warnings :   24 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 
