@@ -1,0 +1,33 @@
+module eightbitmod (
+    input a[8],
+    input b[8],
+    output out[8]
+  ) {
+
+  var x,y,z;
+  var count;
+  var i;
+  always {
+    //covert a to decimal number x;
+    count=1;
+    x=0;
+    for (i=0;i<8;i++){
+      x=x+count*a[i];
+      count=count*2;
+    }
+    //covert b to decimal number y;
+    count=1;
+    y=0;
+    for (i=0;i<8;i++){
+      y=y+count*b[i];
+      count=count*2;
+    }
+    //z is the decimal result of x mod y, the remainder of x/y;
+    z=x-(x/y*y);
+    //convert decimal number z to binary number out
+    for (i=0;i<8;i++){
+      out[i]=z-z/2*2;
+      z=z/2;
+    }
+  }
+}
