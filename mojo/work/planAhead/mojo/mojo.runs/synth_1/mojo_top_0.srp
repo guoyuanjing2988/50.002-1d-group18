@@ -3,7 +3,7 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> Reading design: mojo_top_0.prj
 
@@ -151,12 +151,15 @@ Elaborating module <eightbitdotproduct_19>.
 WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdotproduct_19.v" Line 24: Result of 32-bit expression is truncated to fit in 1-bit target.
 
 Elaborating module <eightbitnota_20>.
-WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 252: Result of 2-bit expression is truncated to fit in 1-bit target.
 WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 253: Result of 2-bit expression is truncated to fit in 1-bit target.
 WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 254: Result of 2-bit expression is truncated to fit in 1-bit target.
 WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 255: Result of 2-bit expression is truncated to fit in 1-bit target.
 WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 256: Result of 2-bit expression is truncated to fit in 1-bit target.
 WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 257: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 258: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 354: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 355: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "H:/sophomore/Computation Structures/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 356: Result of 2-bit expression is truncated to fit in 1-bit target.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -174,17 +177,17 @@ WARNING:Xst:647 - Input <spi_mosi> is never used. This port will be preserved an
 WARNING:Xst:647 - Input <spi_sck> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <avr_tx> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <avr_rx_busy> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 3-bit adder for signal <n0107[2:0]> created at line 276.
-    Found 4-bit adder for signal <n0110[3:0]> created at line 276.
-    Found 5-bit adder for signal <n0113[4:0]> created at line 276.
-    Found 6-bit adder for signal <n0116[5:0]> created at line 276.
-    Found 7-bit adder for signal <_n0121> created at line 276.
-    Found 1-bit tristate buffer for signal <spi_miso> created at line 227
-    Found 1-bit tristate buffer for signal <spi_channel<3>> created at line 227
-    Found 1-bit tristate buffer for signal <spi_channel<2>> created at line 227
-    Found 1-bit tristate buffer for signal <spi_channel<1>> created at line 227
-    Found 1-bit tristate buffer for signal <spi_channel<0>> created at line 227
-    Found 1-bit tristate buffer for signal <avr_rx> created at line 227
+    Found 3-bit adder for signal <n0110[2:0]> created at line 277.
+    Found 4-bit adder for signal <n0113[3:0]> created at line 277.
+    Found 5-bit adder for signal <n0116[4:0]> created at line 277.
+    Found 6-bit adder for signal <n0119[5:0]> created at line 277.
+    Found 7-bit adder for signal <_n0124> created at line 277.
+    Found 1-bit tristate buffer for signal <spi_miso> created at line 228
+    Found 1-bit tristate buffer for signal <spi_channel<3>> created at line 228
+    Found 1-bit tristate buffer for signal <spi_channel<2>> created at line 228
+    Found 1-bit tristate buffer for signal <spi_channel<1>> created at line 228
+    Found 1-bit tristate buffer for signal <spi_channel<0>> created at line 228
+    Found 1-bit tristate buffer for signal <avr_rx> created at line 228
     Summary:
 	inferred   5 Adder/Subtractor(s).
 	inferred   6 Tristate(s).
@@ -525,8 +528,8 @@ Synthesizing (advanced) Unit <eightbitmod_15>.
 Unit <eightbitmod_15> synthesized (advanced).
 
 Synthesizing (advanced) Unit <mojo_top_0>.
-	The following adders/subtractors are grouped into adder tree <Madd__n01211> :
- 	<Madd_n0110[3:0]_Madd> in block <mojo_top_0>, 	<Madd_n0113[4:0]> in block <mojo_top_0>, 	<Madd_n0116[5:0]> in block <mojo_top_0>, 	<Madd__n0121> in block <mojo_top_0>.
+	The following adders/subtractors are grouped into adder tree <Madd__n01241> :
+ 	<Madd_n0113[3:0]_Madd> in block <mojo_top_0>, 	<Madd_n0116[4:0]> in block <mojo_top_0>, 	<Madd_n0119[5:0]> in block <mojo_top_0>, 	<Madd__n0124> in block <mojo_top_0>.
 Unit <mojo_top_0> synthesized (advanced).
 
 =========================================================================
@@ -621,9 +624,9 @@ Primitive and Black Box Usage:
 #      MUXF7                       : 5
 #      VCC                         : 7
 #      XORCY                       : 76
-# IO Buffers                       : 52
+# IO Buffers                       : 60
 #      IBUF                        : 22
-#      OBUF                        : 24
+#      OBUF                        : 32
 #      OBUFT                       : 6
 # DSPs                             : 10
 #      DSP48A1                     : 10
@@ -646,8 +649,8 @@ Slice Logic Distribution:
    Number of unique control sets:         0
 
 IO Utilization: 
- Number of IOs:                          67
- Number of bonded IOBs:                  52  out of    102    50%  
+ Number of IOs:                          75
+ Number of bonded IOBs:                  60  out of    102    58%  
 
 Specific Feature Utilization:
  Number of DSP48A1s:                     10  out of     16    62%  
@@ -691,7 +694,7 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 9595595861250 / 24
+  Total number of paths / destination ports: 9595595861374 / 27
 -------------------------------------------------------------------------
 Delay:               47.688ns (Levels of Logic = 44)
   Source:            io_dip<11> (PAD)
@@ -714,11 +717,11 @@ Delay:               47.688ns (Levels of Logic = 44)
      LUT6:I4->O           12   0.250   1.524  BUS_0006_INV_201_o21 (Madd_GND_15_o_BUS_0001_add_26_OUT[10:0]_lut<5>)
      LUT6:I0->O            2   0.254   1.181  Mmux_a[9]_GND_15_o_MUX_240_o131 (a[9]_GND_15_o_MUX_243_o)
      LUT6:I0->O            1   0.254   0.910  BUS_0007_INV_200_o1 (BUS_0007_INV_200_o1)
-     LUT5:I2->O            4   0.235   1.032  BUS_0007_INV_200_o23_SW0 (N14)
+     LUT5:I2->O            4   0.235   1.032  BUS_0007_INV_200_o23_SW0 (N16)
      LUT5:I2->O           12   0.235   1.499  BUS_0007_INV_200_o23 (Madd_GND_15_o_BUS_0001_add_26_OUT[10:0]_lut<4>)
      LUT5:I0->O            3   0.254   1.221  Mmux_a[9]_GND_15_o_MUX_268_o141 (a[9]_GND_15_o_MUX_272_o)
      LUT6:I0->O            2   0.254   0.954  BUS_0008_INV_199_o3 (BUS_0008_INV_199_o1)
-     LUT6:I3->O            1   0.235   0.000  BUS_0008_INV_199_o1_F (N28)
+     LUT6:I3->O            1   0.235   0.000  BUS_0008_INV_199_o1_F (N30)
      MUXF7:I0->O          11   0.163   1.267  BUS_0008_INV_199_o1 (BUS_0008_INV_199_o2)
      LUT6:I3->O            5   0.235   1.117  Mmux_a[9]_GND_15_o_MUX_294_o161 (a[9]_GND_15_o_MUX_300_o)
      LUT4:I0->O            0   0.254   0.000  Mcompar_BUS_0009_INV_198_o_lutdi (Mcompar_BUS_0009_INV_198_o_lutdi)
@@ -739,7 +742,7 @@ Delay:               47.688ns (Levels of Logic = 44)
      MUXCY:DI->O           1   0.181   0.000  Mcompar_BUS_0011_INV_196_o_cy<1> (Mcompar_BUS_0011_INV_196_o_cy<1>)
      MUXCY:CI->O           1   0.023   0.000  Mcompar_BUS_0011_INV_196_o_cy<2> (Mcompar_BUS_0011_INV_196_o_cy<2>)
      MUXCY:CI->O           2   0.235   0.726  Mcompar_BUS_0011_INV_196_o_cy<3> (Mcompar_BUS_0011_INV_196_o_cy<3>)
-     LUT3:I2->O            1   0.254   0.000  Mcompar_BUS_0011_INV_196_o_cy<4>_G (N31)
+     LUT3:I2->O            1   0.254   0.000  Mcompar_BUS_0011_INV_196_o_cy<4>_G (N33)
      MUXF7:I1->O           1   0.175   0.681  Mcompar_BUS_0011_INV_196_o_cy<4> (o<0>)
      end scope: 'modd/GND_19_o_GND_19_o_div_14:o<0>'
      DSP48A1:B0->P7        1   5.145   0.790  Maddsub_GND_19_o_GND_19_o_MuLt_15_OUT (GND_19_o_GND_19_o_sub_17_OUT<7>)
@@ -759,14 +762,14 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 7.78 secs
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.37 secs
  
 --> 
 
 Total memory usage is 302340 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   30 (   0 filtered)
+Number of warnings :   33 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

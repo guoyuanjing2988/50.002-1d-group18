@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-DESKTOP-HSQ0K0R::  Thu Oct 20 11:44:14 2016
+DESKTOP-HSQ0K0R::  Thu Oct 20 17:38:29 2016
 
 par -intstyle pa -w -mt on mojo_top_0.ncd mojo_top_0_routed.ncd 
 
@@ -40,7 +40,7 @@ Slice Logic Utilization:
     Number used as Memory:                       0 out of   1,440    0%
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   127 out of   1,430    8%
+  Number of occupied Slices:                   118 out of   1,430    8%
   Number of MUXCYs used:                       120 out of   2,860    4%
   Number of LUT Flip Flop pairs used:          306
     Number with an unused Flip Flop:           305 out of     306   99%
@@ -56,8 +56,8 @@ Slice Logic Distribution:
   over-mapped for a non-slice resource or if Placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                        61 out of     102   59%
-    Number of LOCed IOBs:                       61 out of      61  100%
+  Number of bonded IOBs:                        69 out of     102   67%
+    Number of LOCed IOBs:                       69 out of      69  100%
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of      32    0%
@@ -88,8 +88,8 @@ Router effort level (-rl):    High
 
 WARNING:Par:545 - Multi-threading ("-mt" option) is not supported for the Performance Evaluation Mode. PAR will use only one processor.
 
-Starting initial Timing Analysis.  REAL time: 2 secs 
-Finished initial Timing Analysis.  REAL time: 2 secs 
+Starting initial Timing Analysis.  REAL time: 3 secs 
+Finished initial Timing Analysis.  REAL time: 3 secs 
 
 WARNING:Par:288 - The signal clk_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal io_button(0)_IBUF has no load.  PAR will not attempt to route this signal.
@@ -109,29 +109,29 @@ WARNING:Par:288 - The signal spi_mosi_IBUF has no load.  PAR will not attempt to
 Starting Router
 
 
-Phase  1  : 2826 unrouted;      REAL time: 2 secs 
+Phase  1  : 2834 unrouted;      REAL time: 3 secs 
 
-Phase  2  : 1633 unrouted;      REAL time: 3 secs 
+Phase  2  : 1641 unrouted;      REAL time: 3 secs 
 
-Phase  3  : 750 unrouted;      REAL time: 3 secs 
+Phase  3  : 805 unrouted;      REAL time: 4 secs 
 
-Phase  4  : 750 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+Phase  4  : 805 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
 Updating file: mojo_top_0_routed.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
-Total REAL time to Router completion: 4 secs 
-Total CPU time to Router completion: 4 secs 
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Total REAL time to Router completion: 5 secs 
+Total CPU time to Router completion: 5 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -152,10 +152,10 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 15 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 4 secs 
-Total CPU time to PAR completion: 4 secs 
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 5 secs 
 
-Peak Memory Usage:  338 MB
+Peak Memory Usage:  337 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

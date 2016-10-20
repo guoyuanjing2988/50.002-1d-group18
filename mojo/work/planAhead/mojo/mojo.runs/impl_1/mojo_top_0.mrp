@@ -8,7 +8,7 @@ Target Device  : xc6slx9
 Target Package : tqg144
 Target Speed   : -2
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Thu Oct 20 11:44:07 2016
+Mapped Date    : Thu Oct 20 17:38:22 2016
 
 Design Summary
 --------------
@@ -29,7 +29,7 @@ Slice Logic Utilization:
     Number used as Memory:                       0 out of   1,440    0%
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   127 out of   1,430    8%
+  Number of occupied Slices:                   118 out of   1,430    8%
   Number of MUXCYs used:                       120 out of   2,860    4%
   Number of LUT Flip Flop pairs used:          306
     Number with an unused Flip Flop:           305 out of     306   99%
@@ -45,8 +45,8 @@ Slice Logic Distribution:
   over-mapped for a non-slice resource or if Placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                        61 out of     102   59%
-    Number of LOCed IOBs:                       61 out of      61  100%
+  Number of bonded IOBs:                        69 out of     102   67%
+    Number of LOCed IOBs:                       69 out of      69  100%
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of      32    0%
@@ -74,8 +74,8 @@ Specific Feature Utilization:
 Average Fanout of Non-Clock Nets:                2.66
 
 Peak Memory Usage:  374 MB
-Total REAL time to MAP completion:  4 secs 
-Total CPU time to MAP completion (all processors):   4 secs 
+Total REAL time to MAP completion:  5 secs 
+Total CPU time to MAP completion (all processors):   5 secs 
 
 Table of Contents
 -----------------
@@ -139,9 +139,9 @@ INFO:Pack:1650 - Map created a placed design.
 
 Section 4 - Removed Logic Summary
 ---------------------------------
-  14 block(s) removed
-  12 block(s) optimized away
-   8 signal(s) removed
+  13 block(s) removed
+  13 block(s) optimized away
+   7 signal(s) removed
 
 Section 5 - Removed Logic
 -------------------------
@@ -153,9 +153,7 @@ The trimmed logic reported below is either:
 
 The signal "spi_miso" is unused and has been removed.
  Unused block "spi_miso_OBUFT" (TRI) removed.
-  The signal "ADDERTREE_INTERNAL_Madd15_cy[7]" is unused and has been removed.
-   Unused block "XST_GND" (ZERO) removed.
-  The signal "N1_inv" is unused and has been removed.
+  The signal "Mcompar_BUS_0009_INV_198_o_lut[4]" is unused and has been removed.
    Unused block "XST_VCC" (ONE) removed.
 The signal "spi_channel[3]" is unused and has been removed.
  Unused block "spi_channel_3_OBUFT" (TRI) removed.
@@ -176,6 +174,7 @@ Unused block "spi_miso" (PAD) removed.
 
 Optimized Block(s):
 TYPE 		BLOCK
+GND 		XST_GND
 GND 		adder/D
 GND 		divider/GND_14_o_GND_14_o_div_14/XST_GND
 VCC 		divider/GND_14_o_GND_14_o_div_14/XST_VCC
@@ -253,6 +252,14 @@ Section 6 - IOB Properties
 | io_led[21]                         | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
 | io_led[22]                         | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
 | io_led[23]                         | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| led[0]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| led[1]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| led[2]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| led[3]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| led[4]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| led[5]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| led[6]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| led[7]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
 | rst_n                              | IOB              | INPUT     | LVTTL                |       |          |      |              |          |          |
 | spi_mosi                           | IOB              | INPUT     | LVTTL                |       |          |      |              |          |          |
 | spi_sck                            | IOB              | INPUT     | LVTTL                |       |          |      |              |          |          |

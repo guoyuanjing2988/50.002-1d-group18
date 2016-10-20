@@ -17,6 +17,7 @@ module mojo_top_0 (
     output reg avr_rx,
     input avr_rx_busy,
     output reg [23:0] io_led,
+    output reg [7:0] led,
     input [4:0] io_button,
     input [23:0] io_dip
   );
@@ -349,5 +350,9 @@ module mojo_top_0 (
     end
     io_led[0+7-:8] = io_dip[0+7-:8];
     io_led[8+7-:8] = io_dip[8+7-:8];
+    led = 1'h0;
+    led[0+0-:1] = z;
+    led[1+0-:1] = v;
+    led[2+0-:1] = n;
   end
 endmodule

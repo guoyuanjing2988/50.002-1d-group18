@@ -9,18 +9,19 @@ module eightbitadder (
 
   sig x[8];
   sig y[9];
-  var f;
   always {
     x = a+b;
     y = a+b;
     out = x;
-    f=x&127;
-    if (f==0){
+    //z is true when all values in x are 0
+    if (x==0){
       z=1;
     } else {
       z=0;
     }
+    //the highest digit of y represents whether there is overflow, which is v
     v=y[8];
+    //the seventh bit is the sign bit, represent the possitivity of the output, which is n
     n=x[7];
   }
 }

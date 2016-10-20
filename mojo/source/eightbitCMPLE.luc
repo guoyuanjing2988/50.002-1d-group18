@@ -8,6 +8,7 @@ module eightbitCMPLE (
   sig x[8];
   var i;
   always {
+    //the last bit is calculated by (z or (n xor v)), while the others are 0
     x[0]=z|(n^v);
     for (i=1;i<8;i++){
       x[i]=0;

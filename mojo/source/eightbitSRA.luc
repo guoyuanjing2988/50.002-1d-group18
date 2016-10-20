@@ -1,3 +1,5 @@
+//the last three bit of b is seen as a three-bit binary number, which can be the value between 0-7
+//this value is how many bits to be shifted.
 module eightbitSRA (
     input a[8],
     input b[8],
@@ -10,23 +12,29 @@ module eightbitSRA (
   always {
     char=a[7];
     x=a;
+    //the last bit represent 1 bit shift
     if (b[0]){
       for (i=0;i<7;i++){
         x[i]=x[i+1];
       }
+      //fill the shifted bits with a[7]
       x[7]=char;
     }
+    //the second last bit represent 2 bit shift
     if (b[1]){
       for (i=0;i<6;i++){
         x[i]=x[i+2];
       }
+      //fill the shifted bits with a[7]
       x[7]=char;
       x[6]=char;
     }
+    //the third last bit represent 4 bit shift
     if (b[2]){
       for (i=0;i<4;i++){
         x[i]=x[i+4];
       }
+      //fill the shifted bits with a[7]
       x[7]=char;
       x[6]=char;
       x[5]=char;
