@@ -1,0 +1,17 @@
+module eightbitCMPLE (
+    input z,
+    input n,
+    input v,
+      // reset
+    output out[8]
+  ) {
+  sig x[8];
+  var i;
+  always {
+    x[0]=z|(n^v);
+    for (i=1;i<8;i++){
+      x[i]=0;
+    }
+    out=x;
+  }
+}

@@ -1,10 +1,26 @@
 module eightbitadder (
     input a[8],
     input b[8],
-    output out[8]
+    output out[8],
+    output z,
+    output v,
+    output n
   ) {
 
+  sig x[8];
+  sig y[9];
+  var f;
   always {
-    out = a+b;
+    x = a+b;
+    y = a+b;
+    out = x;
+    f=x&127;
+    if (f==0){
+      z=1;
+    } else {
+      z=0;
+    }
+    v=y[8];
+    n=x[7];
   }
 }

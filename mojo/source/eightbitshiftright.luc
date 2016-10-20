@@ -1,0 +1,21 @@
+module eightbitshiftright (
+    input a[8],
+    input b[8],
+    output out[8]
+  ) {
+
+  sig x[8];
+  always {
+    x=a;
+    if (b[0]){
+      x=x>>1;
+    }
+    if (b[1]){
+      x=x>>2;
+    }
+    if (b[2]){
+      x=x>>4;
+    }
+    out=x;
+  }
+}
