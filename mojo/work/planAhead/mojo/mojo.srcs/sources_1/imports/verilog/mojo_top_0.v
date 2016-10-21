@@ -5,6 +5,8 @@
 */
 
 module mojo_top_0 (
+    input clk,
+    input rst_n,
     output reg spi_miso,
     output reg [3:0] spi_channel,
     output reg avr_rx,
@@ -15,325 +17,54 @@ module mojo_top_0 (
   
   
   
-  wire [8-1:0] M_adder_out;
-  wire [1-1:0] M_adder_z;
-  wire [1-1:0] M_adder_v;
-  wire [1-1:0] M_adder_n;
-  reg [8-1:0] M_adder_a;
-  reg [8-1:0] M_adder_b;
-  eightbitadder_1 adder (
-    .a(M_adder_a),
-    .b(M_adder_b),
-    .out(M_adder_out),
-    .z(M_adder_z),
-    .v(M_adder_v),
-    .n(M_adder_n)
+  reg rst;
+  
+  wire [24-1:0] M_myalu_io_led;
+  wire [8-1:0] M_myalu_led;
+  alu_1 myalu (
+    .a(io_dip[0+7-:8]),
+    .b(io_dip[8+7-:8]),
+    .alufn(io_dip[16+0+5-:6]),
+    .io_led(M_myalu_io_led),
+    .led(M_myalu_led)
   );
   
-  wire [8-1:0] M_subtracter_out;
-  reg [8-1:0] M_subtracter_a;
-  reg [8-1:0] M_subtracter_b;
-  eightbitsubtracter_2 subtracter (
-    .a(M_subtracter_a),
-    .b(M_subtracter_b),
-    .out(M_subtracter_out)
+  wire [1-1:0] M_reset_cond_out;
+  reg [1-1:0] M_reset_cond_in;
+  reset_conditioner_2 reset_cond (
+    .clk(clk),
+    .in(M_reset_cond_in),
+    .out(M_reset_cond_out)
   );
-  
-  wire [8-1:0] M_andd_out;
-  reg [8-1:0] M_andd_a;
-  reg [8-1:0] M_andd_b;
-  eightbitand_3 andd (
-    .a(M_andd_a),
-    .b(M_andd_b),
-    .out(M_andd_out)
+  wire [8-1:0] M_my_test_a_out;
+  wire [8-1:0] M_my_test_b_out;
+  wire [8-1:0] M_my_test_out;
+  wire [6-1:0] M_my_test_alufn;
+  test_case_3 my_test (
+    .clk(clk),
+    .rst(rst),
+    .a_out(M_my_test_a_out),
+    .b_out(M_my_test_b_out),
+    .out(M_my_test_out),
+    .alufn(M_my_test_alufn)
   );
-  
-  wire [8-1:0] M_orr_out;
-  reg [8-1:0] M_orr_a;
-  reg [8-1:0] M_orr_b;
-  eightbitor_4 orr (
-    .a(M_orr_a),
-    .b(M_orr_b),
-    .out(M_orr_out)
-  );
-  
-  wire [8-1:0] M_xorr_out;
-  reg [8-1:0] M_xorr_a;
-  reg [8-1:0] M_xorr_b;
-  eightbitxor_5 xorr (
-    .a(M_xorr_a),
-    .b(M_xorr_b),
-    .out(M_xorr_out)
-  );
-  
-  wire [8-1:0] M_equalsa_out;
-  reg [8-1:0] M_equalsa_a;
-  reg [8-1:0] M_equalsa_b;
-  eightbitequalsa_6 equalsa (
-    .a(M_equalsa_a),
-    .b(M_equalsa_b),
-    .out(M_equalsa_out)
-  );
-  
-  wire [8-1:0] M_shiftleft_out;
-  reg [8-1:0] M_shiftleft_a;
-  reg [8-1:0] M_shiftleft_b;
-  eightbitshiftleft_7 shiftleft (
-    .a(M_shiftleft_a),
-    .b(M_shiftleft_b),
-    .out(M_shiftleft_out)
-  );
-  
-  wire [8-1:0] M_shiftright_out;
-  reg [8-1:0] M_shiftright_a;
-  reg [8-1:0] M_shiftright_b;
-  eightbitshiftright_8 shiftright (
-    .a(M_shiftright_a),
-    .b(M_shiftright_b),
-    .out(M_shiftright_out)
-  );
-  
-  wire [8-1:0] M_sra_out;
-  reg [8-1:0] M_sra_a;
-  reg [8-1:0] M_sra_b;
-  eightbitSRA_9 sra (
-    .a(M_sra_a),
-    .b(M_sra_b),
-    .out(M_sra_out)
-  );
-  
-  wire [8-1:0] M_cmpeq_out;
-  reg [1-1:0] M_cmpeq_z;
-  eightbitCMPEQ_10 cmpeq (
-    .z(M_cmpeq_z),
-    .out(M_cmpeq_out)
-  );
-  
-  wire [8-1:0] M_cmplt_out;
-  reg [1-1:0] M_cmplt_n;
-  reg [1-1:0] M_cmplt_v;
-  eightbitCMPLT_11 cmplt (
-    .n(M_cmplt_n),
-    .v(M_cmplt_v),
-    .out(M_cmplt_out)
-  );
-  
-  wire [8-1:0] M_cmple_out;
-  reg [1-1:0] M_cmple_z;
-  reg [1-1:0] M_cmple_n;
-  reg [1-1:0] M_cmple_v;
-  eightbitCMPLE_12 cmple (
-    .z(M_cmple_z),
-    .n(M_cmple_n),
-    .v(M_cmple_v),
-    .out(M_cmple_out)
-  );
-  
-  wire [8-1:0] M_divider_out;
-  reg [8-1:0] M_divider_a;
-  reg [8-1:0] M_divider_b;
-  eightbitdivider_13 divider (
-    .a(M_divider_a),
-    .b(M_divider_b),
-    .out(M_divider_out)
-  );
-  
-  wire [8-1:0] M_multiplier_out;
-  reg [8-1:0] M_multiplier_a;
-  reg [8-1:0] M_multiplier_b;
-  eightbitmultiplier_14 multiplier (
-    .a(M_multiplier_a),
-    .b(M_multiplier_b),
-    .out(M_multiplier_out)
-  );
-  
-  wire [8-1:0] M_modd_out;
-  reg [8-1:0] M_modd_a;
-  reg [8-1:0] M_modd_b;
-  eightbitmod_15 modd (
-    .a(M_modd_a),
-    .b(M_modd_b),
-    .out(M_modd_out)
-  );
-  
-  wire [8-1:0] M_xnorr_out;
-  reg [8-1:0] M_xnorr_a;
-  reg [8-1:0] M_xnorr_b;
-  eightbitxnor_16 xnorr (
-    .a(M_xnorr_a),
-    .b(M_xnorr_b),
-    .out(M_xnorr_out)
-  );
-  
-  wire [8-1:0] M_norr_out;
-  reg [8-1:0] M_norr_a;
-  reg [8-1:0] M_norr_b;
-  eightbitnor_17 norr (
-    .a(M_norr_a),
-    .b(M_norr_b),
-    .out(M_norr_out)
-  );
-  
-  wire [8-1:0] M_nandd_out;
-  reg [8-1:0] M_nandd_a;
-  reg [8-1:0] M_nandd_b;
-  eightbitnand_18 nandd (
-    .a(M_nandd_a),
-    .b(M_nandd_b),
-    .out(M_nandd_out)
-  );
-  
-  wire [8-1:0] M_dotproduct_out;
-  reg [8-1:0] M_dotproduct_a;
-  reg [8-1:0] M_dotproduct_b;
-  eightbitdotproduct_19 dotproduct (
-    .a(M_dotproduct_a),
-    .b(M_dotproduct_b),
-    .out(M_dotproduct_out)
-  );
-  
-  wire [8-1:0] M_nota_out;
-  reg [8-1:0] M_nota_a;
-  eightbitnota_20 nota (
-    .a(M_nota_a),
-    .out(M_nota_out)
-  );
-  
-  integer z;
-  
-  integer v;
-  
-  integer n;
-  
-  integer x;
-  integer y;
-  
-  integer i;
-  
-  reg [7:0] a;
   
   always @* begin
+    M_reset_cond_in = ~rst_n;
+    rst = M_reset_cond_out;
     spi_miso = 1'bz;
     spi_channel = 4'bzzzz;
     avr_rx = 1'bz;
-    M_adder_a = io_dip[0+7-:8];
-    M_adder_b = io_dip[8+7-:8];
-    z = M_adder_z;
-    v = M_adder_v;
-    n = M_adder_n;
-    M_subtracter_a = io_dip[0+7-:8];
-    M_subtracter_b = io_dip[8+7-:8];
-    M_andd_a = io_dip[0+7-:8];
-    M_andd_b = io_dip[8+7-:8];
-    M_orr_a = io_dip[0+7-:8];
-    M_orr_b = io_dip[8+7-:8];
-    M_xorr_a = io_dip[0+7-:8];
-    M_xorr_b = io_dip[8+7-:8];
-    M_equalsa_a = io_dip[0+7-:8];
-    M_equalsa_b = io_dip[8+7-:8];
-    M_shiftleft_a = io_dip[0+7-:8];
-    M_shiftleft_b = io_dip[8+7-:8];
-    M_shiftright_a = io_dip[0+7-:8];
-    M_shiftright_b = io_dip[8+7-:8];
-    M_sra_a = io_dip[0+7-:8];
-    M_sra_b = io_dip[8+7-:8];
-    M_cmpeq_z = z;
-    M_cmplt_v = v;
-    M_cmplt_n = n;
-    M_cmple_z = z;
-    M_cmple_v = v;
-    M_cmple_n = n;
-    M_divider_a = io_dip[0+7-:8];
-    M_divider_b = io_dip[8+7-:8];
-    M_multiplier_a = io_dip[0+7-:8];
-    M_multiplier_b = io_dip[8+7-:8];
-    M_nota_a = io_dip[0+7-:8];
-    M_norr_a = io_dip[0+7-:8];
-    M_norr_b = io_dip[8+7-:8];
-    M_nandd_a = io_dip[0+7-:8];
-    M_nandd_b = io_dip[8+7-:8];
-    M_xnorr_a = io_dip[0+7-:8];
-    M_xnorr_b = io_dip[8+7-:8];
-    M_dotproduct_a = io_dip[0+7-:8];
-    M_dotproduct_b = io_dip[8+7-:8];
-    M_modd_a = io_dip[0+7-:8];
-    M_modd_b = io_dip[8+7-:8];
-    x = 1'h0;
-    y = 1'h1;
-    for (i = 1'h0; i < 3'h6; i = i + 1) begin
-      x = x + (y * io_dip[16+(i)*1+0-:1]);
-      y = y * 2'h2;
+    if (io_dip[16+7+0-:1] == 1'h0) begin
+      io_led[16+7-:8] = M_myalu_io_led[16+7-:8];
+      io_led[8+7-:8] = io_dip[8+7-:8];
+      io_led[0+7-:8] = io_dip[0+7-:8];
+      led = M_myalu_led;
+    end else begin
+      io_led[16+7-:8] = M_my_test_alufn;
+      io_led[8+7-:8] = M_my_test_b_out;
+      io_led[0+7-:8] = M_my_test_a_out;
+      led = M_my_test_out;
     end
-    a = 1'h0;
-    
-    case (x)
-      1'h0: begin
-        a = M_adder_out;
-      end
-      1'h1: begin
-        a = M_subtracter_out;
-      end
-      2'h2: begin
-        a = M_multiplier_out;
-      end
-      3'h4: begin
-        a = M_dotproduct_out;
-      end
-      4'h8: begin
-        a = M_divider_out;
-      end
-      5'h10: begin
-        a = M_modd_out;
-      end
-      5'h18: begin
-        a = M_andd_out;
-      end
-      5'h19: begin
-        a = M_nandd_out;
-      end
-      5'h1e: begin
-        a = M_orr_out;
-      end
-      5'h1f: begin
-        a = M_norr_out;
-      end
-      5'h16: begin
-        a = M_xorr_out;
-      end
-      5'h17: begin
-        a = M_xnorr_out;
-      end
-      5'h1a: begin
-        a = M_equalsa_out;
-      end
-      5'h1b: begin
-        a = M_nota_out;
-      end
-      6'h20: begin
-        a = M_shiftleft_out;
-      end
-      6'h21: begin
-        a = M_shiftright_out;
-      end
-      6'h23: begin
-        a = M_sra_out;
-      end
-      6'h33: begin
-        a = M_cmpeq_out;
-      end
-      6'h35: begin
-        a = M_cmplt_out;
-      end
-      6'h37: begin
-        a = M_cmple_out;
-      end
-    endcase
-    io_led[16+7-:8] = a;
-    io_led[0+7-:8] = io_dip[0+7-:8];
-    io_led[8+7-:8] = io_dip[8+7-:8];
-    led = 1'h0;
-    led[0+0-:1] = z;
-    led[1+0-:1] = v;
-    led[2+0-:1] = n;
   end
 endmodule

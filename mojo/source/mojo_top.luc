@@ -1,9 +1,11 @@
 module mojo_top (
+    input clk,
+    input rst_n,
     output spi_miso,        // AVR SPI MISO
     output spi_channel [4], // AVR general purpose pins (used by default to select ADC channel)
     output avr_rx,          // AVR RX (FPGA TX)
     output io_led [3][8],   // LEDs on IO Shield
-                            // io_led[0] correspond to input a, io_led[1] correspond to input b, io_led[2] correspond to output c.
+                             // io_led[0] correspond to input a, io_led[1] correspond to input b, io_led[2] correspond to output c.
     output led[8],          // led is used to represent z,v,n; led[0] is z, led[1] is v, led[2] is n and the rest are 0
     input io_dip [3][8]     // DIP switches on IO Shield
                             // io_dip[0] correspond to input a, io_dip[1] correspond to input b, io_dip[3] correspond to input ALUFN.
@@ -11,122 +13,35 @@ module mojo_top (
   
 
   //define a total of 20 operations.
-  eightbitadder adder;
-  eightbitsubtracter subtracter;
-  eightbitand andd;
-  eightbitor orr;
-  eightbitxor xorr;
-  eightbitequalsa equalsa;
-  eightbitshiftleft shiftleft;
-  eightbitshiftright shiftright;
-  eightbitSRA sra;
-  eightbitCMPEQ cmpeq;
-  eightbitCMPLT cmplt;
-  eightbitCMPLE cmple;
-  eightbitdivider divider;
-  eightbitmultiplier multiplier;
-  eightbitmod modd;
-  eightbitxnor xnorr;
-  eightbitnor norr;
-  eightbitnand nandd;
-  eightbitdotproduct dotproduct;
-  eightbitnota nota;
-  var z;
-  var v;
-  var n;
-  var x,y;
-  var i;
-  sig a[8];
+  sig rst;
+  alu myalu(.a(io_dip[0]),.b(io_dip[1]),.alufn(io_dip[2][5:0]));
+    .clk(clk) {
+    // The reset conditioner is used to synchronize the reset signal to the FPGA
+    // clock. This ensures the entire FPGA comes out of reset at the same time.
+    reset_conditioner reset_cond;
+    .rst(rst){
+      test_case my_test;
+ 
+    }
+  }
   always {
-    
+    reset_cond.in = ~rst_n; 
+    rst = reset_cond.out;
     spi_miso = bz;            // not using SPI
     spi_channel = bzzzz;      // not using flags
     avr_rx = bz;              // not using serial port    
     //using io_dip[2][0:5] as ALUFN[0:5], which are 3rd switch to 8th switch.
-    
-      
-    //assigning inputs to each operation
-    adder.a=io_dip[0];
-    adder.b=io_dip[1];
-    z=adder.z;
-    v=adder.v;
-    n=adder.n;
-    subtracter.a=io_dip[0];
-    subtracter.b=io_dip[1];
-    andd.a=io_dip[0];
-    andd.b=io_dip[1];
-    orr.a=io_dip[0];
-    orr.b=io_dip[1];
-    xorr.a=io_dip[0];
-    xorr.b=io_dip[1];
-    equalsa.a=io_dip[0];
-    equalsa.b=io_dip[1];
-    shiftleft.a=io_dip[0];
-    shiftleft.b=io_dip[1];
-    shiftright.a=io_dip[0];
-    shiftright.b=io_dip[1];
-    sra.a=io_dip[0];
-    sra.b=io_dip[1];
-    cmpeq.z=z;
-    cmplt.v=v;
-    cmplt.n=n;
-    cmple.z=z;
-    cmple.v=v;
-    cmple.n=n;
-    divider.a=io_dip[0];
-    divider.b=io_dip[1];
-    multiplier.a=io_dip[0];
-    multiplier.b=io_dip[1];
-    nota.a=io_dip[0];
-    norr.a=io_dip[0];
-    norr.b=io_dip[1];
-    nandd.a=io_dip[0];
-    nandd.b=io_dip[1];
-    xnorr.a=io_dip[0];
-    xnorr.b=io_dip[1];
-    dotproduct.a=io_dip[0];
-    dotproduct.b=io_dip[1];
-    modd.a=io_dip[0];
-    modd.b=io_dip[1];
-    //convert the six digit ALUFN to decimal number
-    x=0;
-    y=1;
-    for (i=0;i<6;i++){
-      x=x+(y*io_dip[2][i]);
-      y=y*2;
+    if (io_dip[2][7] == 0){ // left most button to switch mode between self testing and manual testing
+    io_led[2] = myalu.io_led[2];  // alu result
+    io_led[1] = io_dip[1];  // input b
+    io_led[0] = io_dip[0];  // input a
+    led=myalu.led;
+    } else {
+      io_led[2]=my_test.alufn;
+      io_led[1]=my_test.b_out;
+      io_led[0]=my_test.a_out;
+      led=my_test.out;
     }
-    a=0;
-    //for each ALUFN, give corresponding output
-    case (x){
     
-      0: a=adder.out;
-      1: a=subtracter.out;
-      2: a=multiplier.out;
-      4: a=dotproduct.out;
-      8: a=divider.out;
-      16: a=modd.out;
-      24: a=andd.out;
-      25: a=nandd.out;
-      30: a=orr.out;
-      31: a=norr.out;
-      22: a=xorr.out;
-      23: a=xnorr.out;
-      26: a=equalsa.out;
-      27: a=nota.out;
-      32: a=shiftleft.out;
-      33: a=shiftright.out;
-      35: a=sra.out;
-      51: a=cmpeq.out;
-      53: a=cmplt.out;
-      55: a=cmple.out;
-    }
-    // assign values of leds
-    io_led[2]=a;
-    io_led[0] = io_dip[0];   // connect the DIP switches to the LEDs
-    io_led[1] = io_dip[1];
-    led=0;
-    led[0]=z;
-    led[1]=v;
-    led[2]=n;
   }    
 }
