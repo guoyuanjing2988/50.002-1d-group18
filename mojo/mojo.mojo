@@ -12,12 +12,14 @@
     <src>eightbitshiftleft.luc</src>
     <src>eightbitnand.luc</src>
     <src>multi_dec_ctr.luc</src>
-    <src>eightbitequalsa.luc</src>
     <src>eightbitmultiplier.luc</src>
+    <src>eightbitequalsa.luc</src>
     <src>eightbitshiftright.luc</src>
-    <src>seven_seg.luc</src>
     <src>eightbitadder.luc</src>
+    <src>seven_seg.luc</src>
     <src>eightbitnor.luc</src>
+    <src>alu.luc</src>
+    <src>test_case.luc</src>
     <src>eightbitSRA.luc</src>
     <src>decimal_counter.luc</src>
     <src>eightbitCMPLT.luc</src>
@@ -26,6 +28,7 @@
     <src>eightbitCMPLE.luc</src>
     <src>eightbitdivider.luc</src>
     <src>eightbitCMPEQ.luc</src>
+    <src>blinker.luc</src>
     <ucf lib="true">io_shield.ucf</ucf>
     <ucf lib="true">mojo.ucf</ucf>
     <component>decoder.luc</component>

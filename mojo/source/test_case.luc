@@ -1,0 +1,45 @@
+module test_case (
+    input clk,  // clock
+    input rst,  // reset
+    output out[8],
+  ) 
+  {
+  sig a[8];
+  sig b[8];
+  sig z;
+  sig v;
+  sig n; 
+  sig opcode[6]; 
+  sig x;
+ 
+  // test case hardcoded variables
+  const A = 8b00100100;
+  const B = 8b01001100;
+  const ADD_AB = 8b01110000;
+  const SUB_AB = 8b11011000;
+  const AND_AB = 8b00000100;
+  const OR_AB = 8b01101100;
+  const XOR_AB = 8b01101000;
+  const SHL_A = 8b10010000;
+  const SHR_A = 8b00001001;
+  const SRA_A = 8b00001001;
+  const CMPEQ_AB = 8b00000000;
+  const CMPLE_AB = 8b00000001;
+  const CMPLT_AB = 8b00000001;
+
+  
+    .clk(clk) {
+    // The reset conditioner is used to synchronize the reset signal to the FPGA
+    // clock. This ensures the entire FPGA comes out of reset at the same time.
+    .rst(rst){
+      fsm state = {START,ADD,SUB,AND,OR,XOR,A,SHL,SHR,SRA,CMPEQ,CMPLE,CMPLT,PASS};  // state machine that stores all opcode cases
+      blinker myBlinker;                                                                // blinker to hold a 1s check time for each state
+    }
+  }
+   alu my_alu(.a(a),.b(b),.alufn(opcode),.x(x).z(z),.v(v),.n(n));
+
+  always {
+  
+    out = 0;
+  }
+}

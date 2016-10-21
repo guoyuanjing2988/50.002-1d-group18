@@ -8,7 +8,7 @@ Target Device  : xc6slx9
 Target Package : tqg144
 Target Speed   : -2
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Thu Oct 20 17:54:33 2016
+Mapped Date    : Fri Oct 21 10:40:22 2016
 
 Mapping design into LUTs...
 WARNING:MapLib:701 - Signal spi_channel[3] connected to top level port
@@ -60,21 +60,21 @@ Phase 8.5  Local Placement Optimization (Checksum:b990a7d5) REAL time: 4 secs
 Phase 9.8  Global Placement
 .................
 .......
-Phase 9.8  Global Placement (Checksum:2aea6092) REAL time: 4 secs 
+Phase 9.8  Global Placement (Checksum:2aea6092) REAL time: 5 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:2aea6092) REAL time: 4 secs 
+Phase 10.5  Local Placement Optimization (Checksum:2aea6092) REAL time: 5 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:fd177492) REAL time: 4 secs 
+Phase 11.18  Placement Optimization (Checksum:fd177492) REAL time: 5 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:fd177492) REAL time: 4 secs 
+Phase 12.5  Local Placement Optimization (Checksum:fd177492) REAL time: 5 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:fd177492) REAL time: 4 secs 
+Phase 13.34  Placement Validation (Checksum:fd177492) REAL time: 5 secs 
 
-Total REAL time to Placer completion: 4 secs 
+Total REAL time to Placer completion: 5 secs 
 Total CPU  time to Placer completion: 4 secs 
 Running post-placement packing...
 Writing output files...
@@ -144,7 +144,7 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                2.70
 
-Peak Memory Usage:  375 MB
+Peak Memory Usage:  430 MB
 Total REAL time to MAP completion:  5 secs 
 Total CPU time to MAP completion (all processors):   5 secs 
 

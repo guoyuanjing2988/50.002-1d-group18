@@ -1,0 +1,93 @@
+module alu (
+    input a[8],
+    input b[8],
+    input alufn[6],
+    output io_led[3][8],
+    output led[8]
+  ) {
+  
+  //define a total of 20 operations.
+  eightbitadder adder;
+  eightbitsubtracter subtracter;
+  eightbitand andd;
+  eightbitor orr;
+  eightbitxor xorr;
+  eightbitequalsa equalsa;
+  eightbitshiftleft shiftleft;
+  eightbitshiftright shiftright;
+  eightbitSRA sra;
+  eightbitCMPEQ cmpeq;
+  eightbitCMPLT cmplt;
+  eightbitCMPLE cmple;
+  var z;
+  var v;
+  var n;
+  var x,y;
+  var i;
+  var m[8];
+  always {
+    
+          
+    //assigning inputs to each operation
+    adder.a=a;
+    adder.b=b;
+    z=adder.z;
+    v=adder.v;
+    n=adder.n;
+    subtracter.a=a;
+    subtracter.b=b;
+    andd.a=a;
+    andd.b=b;
+    orr.a=a;
+    orr.b=b;
+    xorr.a=a;
+    xorr.b=b;
+    equalsa.a=a;
+    equalsa.b=b;
+    shiftleft.a=a;
+    shiftleft.b=b;
+    shiftright.a=a;
+    shiftright.b=b;
+    sra.a=a;
+    sra.b=b;
+    cmpeq.z=z;
+    cmplt.v=v;
+    cmplt.n=n;
+    cmple.z=z;
+    cmple.v=v;
+    cmple.n=n;
+    //convert the six digit ALUFN to decimal number
+    x=0;
+    y=1;
+    for (i=0;i<6;i++){
+      x=x+(y*alufn[i]);
+      y=y*2;
+    }
+    m=0;
+    //for each ALUFN, give corresponding output
+    case (x){
+    
+      0: m=adder.out;
+      1: m=subtracter.out;
+
+      24: m=andd.out;
+      30: m=orr.out;
+      22: m=xorr.out;
+      26: m=equalsa.out;
+      32: m=shiftleft.out;
+      33: m=shiftright.out;
+      35: m=sra.out;
+      51: m=cmpeq.out;
+      53: m=cmplt.out;
+      55: m=cmple.out;
+    }
+    // assign values of leds
+    io_led[2]=m;
+    io_led[0] = a ;   // connect the DIP switches to the LEDs
+    io_led[1] = b;
+    led=0;
+    led[0]=z;
+    led[1]=v;
+    led[2]=n;
+  }
+}
