@@ -19,12 +19,20 @@ module alu (
   eightbitCMPEQ cmpeq;
   eightbitCMPLT cmplt;
   eightbitCMPLE cmple;
+  eightbitdivider divider;
+  eightbitmultiplier multiplier;
+  eightbitmod modd;
+  eightbitxnor xnorr;
+  eightbitnor norr;
+  eightbitnand nandd;
+  eightbitdotproduct dotproduct;
+  eightbitnota nota;
   var z;
   var v;
   var n;
   var x,y;
   var i;
-  var m[8];
+  sig m[8];
   always {
     
           
@@ -56,6 +64,21 @@ module alu (
     cmple.z=z;
     cmple.v=v;
     cmple.n=n;
+    divider.a=a;
+    divider.b=b;
+    multiplier.a=a;
+    multiplier.b=b;
+    nota.a=a;
+    norr.a=a;
+    norr.b=b;
+    nandd.a=a;
+    nandd.b=b;
+    xnorr.a=a;
+    xnorr.b=b;
+    dotproduct.a=a;
+    dotproduct.b=b;
+    modd.a=a;
+    modd.b=b;
     //convert the six digit ALUFN to decimal number
     x=0;
     y=1;
@@ -69,10 +92,18 @@ module alu (
     
       0: m=adder.out;
       1: m=subtracter.out;
+      2: m=multiplier.out;
+      4: m=dotproduct.out;
+      8: m=divider.out;
+      16: m=modd.out;
       24: m=andd.out;
+      25: m=nandd.out;
       30: m=orr.out;
+      31: m=norr.out;
       22: m=xorr.out;
+      23: m=xnorr.out;
       26: m=equalsa.out;
+      27: m=nota.out;
       32: m=shiftleft.out;
       33: m=shiftright.out;
       35: m=sra.out;

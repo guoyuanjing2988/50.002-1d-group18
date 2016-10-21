@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-ROSEN::  Fri Oct 21 12:50:51 2016
+ROSEN::  Fri Oct 21 13:22:07 2016
 
 par -intstyle pa -w -mt on mojo_top_0.ncd mojo_top_0_routed.ncd 
 
@@ -13,11 +13,6 @@ Loading device for application Rf_Device from file '6slx9.nph' in environment C:
 Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
 Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
 
-INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
-   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
-   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
-   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
-   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
 
 Device speed data version:  "PRODUCTION 1.23 2013-10-13".
 
@@ -26,26 +21,30 @@ Device speed data version:  "PRODUCTION 1.23 2013-10-13".
 Device Utilization Summary:
 
 Slice Logic Utilization:
-  Number of Slice Registers:                     2 out of  11,440    1%
-    Number used as Flip Flops:                   0
+  Number of Slice Registers:                    42 out of  11,440    1%
+    Number used as Flip Flops:                  41
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
-    Number used as AND/OR logics:                2
-  Number of Slice LUTs:                        305 out of   5,720    5%
-    Number used as logic:                      305 out of   5,720    5%
-      Number using O6 output only:             253
-      Number using O5 output only:               0
-      Number using O5 and O6:                   52
+    Number used as AND/OR logics:                1
+  Number of Slice LUTs:                        616 out of   5,720   10%
+    Number used as logic:                      595 out of   5,720   10%
+      Number using O6 output only:             446
+      Number using O5 output only:              52
+      Number using O5 and O6:                   97
       Number used as ROM:                        0
     Number used as Memory:                       0 out of   1,440    0%
+    Number used exclusively as route-thrus:     21
+      Number with same-slice register load:      1
+      Number with same-slice carry load:        20
+      Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   120 out of   1,430    8%
-  Number of MUXCYs used:                       120 out of   2,860    4%
-  Number of LUT Flip Flop pairs used:          305
-    Number with an unused Flip Flop:           303 out of     305   99%
-    Number with an unused LUT:                   0 out of     305    0%
-    Number of fully used LUT-FF pairs:           2 out of     305    1%
+  Number of occupied Slices:                   229 out of   1,430   16%
+  Number of MUXCYs used:                       400 out of   2,860   13%
+  Number of LUT Flip Flop pairs used:          620
+    Number with an unused Flip Flop:           579 out of     620   93%
+    Number with an unused LUT:                   4 out of     620    1%
+    Number of fully used LUT-FF pairs:          37 out of     620    5%
     Number of slice register sites lost
       to control set restrictions:               0 out of  11,440    0%
 
@@ -56,15 +55,17 @@ Slice Logic Distribution:
   over-mapped for a non-slice resource or if Placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                        56 out of     102   54%
-    Number of LOCed IOBs:                       56 out of      56  100%
+  Number of bonded IOBs:                        58 out of     102   56%
+    Number of LOCed IOBs:                       58 out of      58  100%
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of      32    0%
   Number of RAMB8BWERs:                          0 out of      64    0%
   Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
   Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
-  Number of BUFG/BUFGMUXs:                       0 out of      16    0%
+  Number of BUFG/BUFGMUXs:                       1 out of      16    6%
+    Number used as BUFGs:                        1
+    Number used as BUFGMUX:                      0
   Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
   Number of ILOGIC2/ISERDES2s:                   0 out of     200    0%
   Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     200    0%
@@ -73,7 +74,7 @@ Specific Feature Utilization:
   Number of BUFHs:                               0 out of     128    0%
   Number of BUFPLLs:                             0 out of       8    0%
   Number of BUFPLL_MCBs:                         0 out of       4    0%
-  Number of DSP48A1s:                           10 out of      16   62%
+  Number of DSP48A1s:                           16 out of      16  100%
   Number of ICAPs:                               0 out of       1    0%
   Number of MCBs:                                0 out of       2    0%
   Number of PCILOGICSEs:                         0 out of       2    0%
@@ -86,70 +87,106 @@ Specific Feature Utilization:
 Overall effort level (-ol):   Standard 
 Router effort level (-rl):    High 
 
-WARNING:Par:545 - Multi-threading ("-mt" option) is not supported for the Performance Evaluation Mode. PAR will use only one processor.
-
-Starting initial Timing Analysis.  REAL time: 4 secs 
-Finished initial Timing Analysis.  REAL time: 4 secs 
-
+PAR will use up to 2 processors
 WARNING:Par:288 - The signal io_dip(22)_IBUF has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal io_dip(23)_IBUF has no load.  PAR will not attempt to route this signal.
-Starting Router
+Starting Multi-threaded Router
 
 
-Phase  1  : 2835 unrouted;      REAL time: 4 secs 
+Phase  1  : 4801 unrouted;      REAL time: 5 secs 
 
-Phase  2  : 1639 unrouted;      REAL time: 4 secs 
+Phase  2  : 2669 unrouted;      REAL time: 5 secs 
 
-Phase  3  : 756 unrouted;      REAL time: 5 secs 
+Phase  3  : 1512 unrouted;      REAL time: 7 secs 
 
-Phase  4  : 756 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+Phase  4  : 1575 unrouted; (Setup:5908772, Hold:0, Component Switching Limit:0)     REAL time: 8 secs 
 
-Updating file: mojo_top_0_routed.ncd with current fully routed design.
+Phase  5  : 0 unrouted; (Setup:5938893, Hold:0, Component Switching Limit:0)     REAL time: 9 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+Phase  6  : 0 unrouted; (Setup:5938893, Hold:0, Component Switching Limit:0)     REAL time: 9 secs 
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+Phase  7  : 0 unrouted; (Setup:5938893, Hold:0, Component Switching Limit:0)     REAL time: 9 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+Phase  8  : 0 unrouted; (Setup:5938893, Hold:0, Component Switching Limit:0)     REAL time: 9 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+Phase  9  : 0 unrouted; (Setup:5938893, Hold:0, Component Switching Limit:0)     REAL time: 9 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
-
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
-Total REAL time to Router completion: 6 secs 
-Total CPU time to Router completion: 5 secs 
-
-Partition Implementation Status
--------------------------------
-
-  No Partitions were found in this design.
-
--------------------------------
+Phase 10  : 0 unrouted; (Setup:5933177, Hold:0, Component Switching Limit:0)     REAL time: 9 secs 
+Total REAL time to Router completion: 9 secs 
+Total CPU time to Router completion (all processors): 9 secs 
 
 Generating "PAR" statistics.
-INFO:Par:459 - The Clock Report is not displayed in the non timing-driven mode.
-Timing Score: 0 (Setup: 0, Hold: 0)
 
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           clk_BUFGP | BUFGMUX_X2Y11| No   |   16 |  0.079     |  1.507      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 5933177 (Setup: 5933177, Hold: 0, Component Switching Limit: 0)
+
+WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in your design.
+
+   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to ensure the best options
+   are set in the tools for timing closure.
+
+   Increase the PAR Effort Level setting to "high"
+
+   Use the Xilinx "SmartXplorer" script to try special combinations of
+   options known to produce very good results.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_clk = PERIOD TIMEGRP "clk" 50 MHz HIGH | SETUP       |  -594.105ns|   614.105ns|      10|     5933177
+   50%                                      | HOLD        |     0.460ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+1 constraint not met.
 
 
 Generating Pad Report.
 
 All signals are completely routed.
 
-WARNING:Par:283 - There are 2 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+WARNING:Par:283 - There are 1 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 7 secs 
-Total CPU time to PAR completion: 5 secs 
+Total REAL time to PAR completion: 10 secs 
+Total CPU time to PAR completion (all processors): 10 secs 
 
-Peak Memory Usage:  393 MB
+Peak Memory Usage:  445 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
+Timing: Completed - 10 errors found.
 
 Number of error messages: 0
-Number of warning messages: 5
-Number of info messages: 2
+Number of warning messages: 4
+Number of info messages: 0
 
 Writing design to file mojo_top_0_routed.ncd
 

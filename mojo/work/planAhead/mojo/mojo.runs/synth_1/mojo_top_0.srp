@@ -2,7 +2,7 @@ Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.05 secs
  
 --> Reading design: mojo_top_0.prj
@@ -53,46 +53,54 @@ Netlist Hierarchy                  : rebuilt
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitxor_5.v" into library work
-Parsing module <eightbitxor_5>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitxnor_16.v" into library work
-Parsing module <eightbitxnor_16>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitsubtracter_2.v" into library work
-Parsing module <eightbitsubtracter_2>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_9.v" into library work
-Parsing module <eightbitSRA_9>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitshiftright_8.v" into library work
-Parsing module <eightbitshiftright_8>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitshiftleft_7.v" into library work
-Parsing module <eightbitshiftleft_7>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitor_4.v" into library work
-Parsing module <eightbitor_4>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnota_20.v" into library work
-Parsing module <eightbitnota_20>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnor_17.v" into library work
-Parsing module <eightbitnor_17>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnand_18.v" into library work
-Parsing module <eightbitnand_18>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitmultiplier_14.v" into library work
-Parsing module <eightbitmultiplier_14>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitmod_15.v" into library work
-Parsing module <eightbitmod_15>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitequalsa_6.v" into library work
-Parsing module <eightbitequalsa_6>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdotproduct_19.v" into library work
-Parsing module <eightbitdotproduct_19>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdivider_13.v" into library work
-Parsing module <eightbitdivider_13>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitCMPLT_11.v" into library work
-Parsing module <eightbitCMPLT_11>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitCMPLE_12.v" into library work
-Parsing module <eightbitCMPLE_12>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitCMPEQ_10.v" into library work
-Parsing module <eightbitCMPEQ_10>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitand_3.v" into library work
-Parsing module <eightbitand_3>.
-Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitadder_1.v" into library work
-Parsing module <eightbitadder_1>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitxor_8.v" into library work
+Parsing module <eightbitxor_8>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitxnor_19.v" into library work
+Parsing module <eightbitxnor_19>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitsubtracter_5.v" into library work
+Parsing module <eightbitsubtracter_5>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_12.v" into library work
+Parsing module <eightbitSRA_12>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitshiftright_11.v" into library work
+Parsing module <eightbitshiftright_11>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitshiftleft_10.v" into library work
+Parsing module <eightbitshiftleft_10>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitor_7.v" into library work
+Parsing module <eightbitor_7>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnota_23.v" into library work
+Parsing module <eightbitnota_23>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnor_20.v" into library work
+Parsing module <eightbitnor_20>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnand_21.v" into library work
+Parsing module <eightbitnand_21>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitmultiplier_17.v" into library work
+Parsing module <eightbitmultiplier_17>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitmod_18.v" into library work
+Parsing module <eightbitmod_18>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitequalsa_9.v" into library work
+Parsing module <eightbitequalsa_9>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdotproduct_22.v" into library work
+Parsing module <eightbitdotproduct_22>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdivider_16.v" into library work
+Parsing module <eightbitdivider_16>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitCMPLT_14.v" into library work
+Parsing module <eightbitCMPLT_14>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitCMPLE_15.v" into library work
+Parsing module <eightbitCMPLE_15>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitCMPEQ_13.v" into library work
+Parsing module <eightbitCMPEQ_13>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitand_6.v" into library work
+Parsing module <eightbitand_6>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitadder_4.v" into library work
+Parsing module <eightbitadder_4>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/blinker_24.v" into library work
+Parsing module <blinker_24>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/alu_1.v" into library work
+Parsing module <alu_1>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/test_case_3.v" into library work
+Parsing module <test_case_3>.
+Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/reset_conditioner_2.v" into library work
+Parsing module <reset_conditioner_2>.
 Analyzing Verilog file "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" into library work
 Parsing module <mojo_top_0>.
 
@@ -102,64 +110,73 @@ Parsing module <mojo_top_0>.
 
 Elaborating module <mojo_top_0>.
 
-Elaborating module <eightbitadder_1>.
+Elaborating module <alu_1>.
 
-Elaborating module <eightbitsubtracter_2>.
+Elaborating module <eightbitadder_4>.
 
-Elaborating module <eightbitand_3>.
+Elaborating module <eightbitsubtracter_5>.
 
-Elaborating module <eightbitor_4>.
+Elaborating module <eightbitand_6>.
 
-Elaborating module <eightbitxor_5>.
+Elaborating module <eightbitor_7>.
 
-Elaborating module <eightbitequalsa_6>.
+Elaborating module <eightbitxor_8>.
 
-Elaborating module <eightbitshiftleft_7>.
+Elaborating module <eightbitequalsa_9>.
 
-Elaborating module <eightbitshiftright_8>.
+Elaborating module <eightbitshiftleft_10>.
 
-Elaborating module <eightbitSRA_9>.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_9.v" Line 28: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_9.v" Line 34: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_9.v" Line 35: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_9.v" Line 41: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_9.v" Line 42: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_9.v" Line 43: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_9.v" Line 44: Result of 2-bit expression is truncated to fit in 1-bit target.
+Elaborating module <eightbitshiftright_11>.
 
-Elaborating module <eightbitCMPEQ_10>.
+Elaborating module <eightbitSRA_12>.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_12.v" Line 28: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_12.v" Line 34: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_12.v" Line 35: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_12.v" Line 41: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_12.v" Line 42: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_12.v" Line 43: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_12.v" Line 44: Result of 2-bit expression is truncated to fit in 1-bit target.
 
-Elaborating module <eightbitCMPLT_11>.
+Elaborating module <eightbitCMPEQ_13>.
 
-Elaborating module <eightbitCMPLE_12>.
+Elaborating module <eightbitCMPLT_14>.
 
-Elaborating module <eightbitdivider_13>.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdivider_13.v" Line 38: Result of 32-bit expression is truncated to fit in 1-bit target.
+Elaborating module <eightbitCMPLE_15>.
 
-Elaborating module <eightbitmultiplier_14>.
+Elaborating module <eightbitdivider_16>.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdivider_16.v" Line 38: Result of 32-bit expression is truncated to fit in 1-bit target.
 
-Elaborating module <eightbitmod_15>.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitmod_15.v" Line 38: Result of 32-bit expression is truncated to fit in 1-bit target.
+Elaborating module <eightbitmultiplier_17>.
 
-Elaborating module <eightbitxnor_16>.
+Elaborating module <eightbitmod_18>.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitmod_18.v" Line 38: Result of 32-bit expression is truncated to fit in 1-bit target.
 
-Elaborating module <eightbitnor_17>.
+Elaborating module <eightbitxnor_19>.
 
-Elaborating module <eightbitnand_18>.
+Elaborating module <eightbitnor_20>.
 
-Elaborating module <eightbitdotproduct_19>.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdotproduct_19.v" Line 24: Result of 32-bit expression is truncated to fit in 1-bit target.
+Elaborating module <eightbitnand_21>.
 
-Elaborating module <eightbitnota_20>.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 240: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 241: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 242: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 243: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 244: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 245: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 335: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 336: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 337: Result of 2-bit expression is truncated to fit in 1-bit target.
+Elaborating module <eightbitdotproduct_22>.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdotproduct_22.v" Line 24: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <eightbitnota_23>.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/alu_1.v" Line 236: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/alu_1.v" Line 237: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/alu_1.v" Line 238: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/alu_1.v" Line 239: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/alu_1.v" Line 240: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/alu_1.v" Line 241: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/alu_1.v" Line 331: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/alu_1.v" Line 332: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/alu_1.v" Line 333: Result of 2-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <reset_conditioner_2>.
+
+Elaborating module <test_case_3>.
+
+Elaborating module <blinker_24>.
+WARNING:HDLCompiler:1127 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/test_case_3.v" Line 86: Assignment to M_my_alu_led ignored, since the identifier is never used
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -167,100 +184,106 @@ WARNING:HDLCompiler:413 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo
 
 Synthesizing Unit <mojo_top_0>.
     Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/mojo_top_0.v".
-WARNING:Xst:647 - Input <io_dip<23:22>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 3-bit adder for signal <n0109[2:0]> created at line 264.
-    Found 4-bit adder for signal <n0112[3:0]> created at line 264.
-    Found 5-bit adder for signal <n0115[4:0]> created at line 264.
-    Found 6-bit adder for signal <n0118[5:0]> created at line 264.
-    Found 7-bit adder for signal <_n0123> created at line 264.
-    Found 1-bit tristate buffer for signal <spi_miso> created at line 215
-    Found 1-bit tristate buffer for signal <spi_channel<3>> created at line 215
-    Found 1-bit tristate buffer for signal <spi_channel<2>> created at line 215
-    Found 1-bit tristate buffer for signal <spi_channel<1>> created at line 215
-    Found 1-bit tristate buffer for signal <spi_channel<0>> created at line 215
-    Found 1-bit tristate buffer for signal <avr_rx> created at line 215
+WARNING:Xst:647 - Input <io_dip<22:22>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit tristate buffer for signal <spi_miso> created at line 52
+    Found 1-bit tristate buffer for signal <spi_channel<3>> created at line 52
+    Found 1-bit tristate buffer for signal <spi_channel<2>> created at line 52
+    Found 1-bit tristate buffer for signal <spi_channel<1>> created at line 52
+    Found 1-bit tristate buffer for signal <spi_channel<0>> created at line 52
+    Found 1-bit tristate buffer for signal <avr_rx> created at line 52
     Summary:
-	inferred   5 Adder/Subtractor(s).
+	inferred   2 Multiplexer(s).
 	inferred   6 Tristate(s).
 Unit <mojo_top_0> synthesized.
 
-Synthesizing Unit <eightbitadder_1>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitadder_1.v".
+Synthesizing Unit <alu_1>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/alu_1.v".
+    Found 3-bit adder for signal <n0103[2:0]> created at line 260.
+    Found 4-bit adder for signal <n0106[3:0]> created at line 260.
+    Found 5-bit adder for signal <n0109[4:0]> created at line 260.
+    Found 6-bit adder for signal <n0112[5:0]> created at line 260.
+    Found 7-bit adder for signal <_n0117> created at line 260.
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+Unit <alu_1> synthesized.
+
+Synthesizing Unit <eightbitadder_4>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitadder_4.v".
     Found 9-bit adder for signal <n0011> created at line 23.
     Summary:
 	inferred   1 Adder/Subtractor(s).
-Unit <eightbitadder_1> synthesized.
+Unit <eightbitadder_4> synthesized.
 
-Synthesizing Unit <eightbitsubtracter_2>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitsubtracter_2.v".
+Synthesizing Unit <eightbitsubtracter_5>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitsubtracter_5.v".
     Found 8-bit subtractor for signal <out> created at line 16.
     Summary:
 	inferred   1 Adder/Subtractor(s).
-Unit <eightbitsubtracter_2> synthesized.
+Unit <eightbitsubtracter_5> synthesized.
 
-Synthesizing Unit <eightbitand_3>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitand_3.v".
+Synthesizing Unit <eightbitand_6>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitand_6.v".
     Summary:
 	no macro.
-Unit <eightbitand_3> synthesized.
+Unit <eightbitand_6> synthesized.
 
-Synthesizing Unit <eightbitor_4>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitor_4.v".
+Synthesizing Unit <eightbitor_7>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitor_7.v".
     Summary:
 	no macro.
-Unit <eightbitor_4> synthesized.
+Unit <eightbitor_7> synthesized.
 
-Synthesizing Unit <eightbitxor_5>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitxor_5.v".
+Synthesizing Unit <eightbitxor_8>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitxor_8.v".
     Summary:
-Unit <eightbitxor_5> synthesized.
+Unit <eightbitxor_8> synthesized.
 
-Synthesizing Unit <eightbitequalsa_6>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitequalsa_6.v".
+Synthesizing Unit <eightbitequalsa_9>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitequalsa_9.v".
 WARNING:Xst:647 - Input <b> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
 	no macro.
-Unit <eightbitequalsa_6> synthesized.
+Unit <eightbitequalsa_9> synthesized.
 
-Synthesizing Unit <eightbitshiftleft_7>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitshiftleft_7.v".
+Synthesizing Unit <eightbitshiftleft_10>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitshiftleft_10.v".
 WARNING:Xst:647 - Input <b<7:3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
 	inferred   3 Multiplexer(s).
-Unit <eightbitshiftleft_7> synthesized.
+Unit <eightbitshiftleft_10> synthesized.
 
-Synthesizing Unit <eightbitshiftright_8>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitshiftright_8.v".
+Synthesizing Unit <eightbitshiftright_11>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitshiftright_11.v".
 WARNING:Xst:647 - Input <b<7:3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
 	inferred   3 Multiplexer(s).
-Unit <eightbitshiftright_8> synthesized.
+Unit <eightbitshiftright_11> synthesized.
 
-Synthesizing Unit <eightbitSRA_9>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_9.v".
+Synthesizing Unit <eightbitSRA_12>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitSRA_12.v".
 WARNING:Xst:647 - Input <b<7:3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
 	inferred  21 Multiplexer(s).
-Unit <eightbitSRA_9> synthesized.
+Unit <eightbitSRA_12> synthesized.
 
-Synthesizing Unit <eightbitCMPEQ_10>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitCMPEQ_10.v".
+Synthesizing Unit <eightbitCMPEQ_13>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitCMPEQ_13.v".
     Summary:
 	no macro.
-Unit <eightbitCMPEQ_10> synthesized.
+Unit <eightbitCMPEQ_13> synthesized.
 
-Synthesizing Unit <eightbitCMPLT_11>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitCMPLT_11.v".
+Synthesizing Unit <eightbitCMPLT_14>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitCMPLT_14.v".
     Summary:
-Unit <eightbitCMPLT_11> synthesized.
+Unit <eightbitCMPLT_14> synthesized.
 
-Synthesizing Unit <eightbitCMPLE_12>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitCMPLE_12.v".
+Synthesizing Unit <eightbitCMPLE_15>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitCMPLE_15.v".
     Summary:
-Unit <eightbitCMPLE_12> synthesized.
+Unit <eightbitCMPLE_15> synthesized.
 
-Synthesizing Unit <eightbitdivider_13>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdivider_13.v".
+Synthesizing Unit <eightbitdivider_16>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdivider_16.v".
     Found 32-bit subtractor for signal <n0031> created at line 38.
     Found 32-bit subtractor for signal <n0030> created at line 38.
     Found 31-bit subtractor for signal <n0029> created at line 38.
@@ -285,33 +308,33 @@ Synthesizing Unit <eightbitdivider_13>.
     Found 9-bit adder for signal <n0135[8:0]> created at line 33.
     Summary:
 	inferred  22 Adder/Subtractor(s).
-Unit <eightbitdivider_13> synthesized.
+Unit <eightbitdivider_16> synthesized.
 
 Synthesizing Unit <div_10s_10s>.
     Related source file is "".
     Found 10-bit subtractor for signal <a[9]_unary_minus_1_OUT> created at line 0.
     Found 10-bit subtractor for signal <b[9]_unary_minus_3_OUT> created at line 0.
     Found 20-bit adder for signal <n0456> created at line 0.
-    Found 20-bit adder for signal <GND_15_o_b[9]_add_5_OUT> created at line 0.
+    Found 20-bit adder for signal <GND_16_o_b[9]_add_5_OUT> created at line 0.
     Found 19-bit adder for signal <n0460> created at line 0.
-    Found 19-bit adder for signal <GND_15_o_b[9]_add_7_OUT> created at line 0.
+    Found 19-bit adder for signal <GND_16_o_b[9]_add_7_OUT> created at line 0.
     Found 18-bit adder for signal <n0464> created at line 0.
-    Found 18-bit adder for signal <GND_15_o_b[9]_add_9_OUT> created at line 0.
+    Found 18-bit adder for signal <GND_16_o_b[9]_add_9_OUT> created at line 0.
     Found 17-bit adder for signal <n0468> created at line 0.
-    Found 17-bit adder for signal <GND_15_o_b[9]_add_11_OUT> created at line 0.
+    Found 17-bit adder for signal <GND_16_o_b[9]_add_11_OUT> created at line 0.
     Found 16-bit adder for signal <n0472> created at line 0.
-    Found 16-bit adder for signal <GND_15_o_b[9]_add_13_OUT> created at line 0.
+    Found 16-bit adder for signal <GND_16_o_b[9]_add_13_OUT> created at line 0.
     Found 15-bit adder for signal <n0476> created at line 0.
-    Found 15-bit adder for signal <GND_15_o_b[9]_add_15_OUT> created at line 0.
+    Found 15-bit adder for signal <GND_16_o_b[9]_add_15_OUT> created at line 0.
     Found 14-bit adder for signal <n0480> created at line 0.
-    Found 14-bit adder for signal <GND_15_o_b[9]_add_17_OUT> created at line 0.
+    Found 14-bit adder for signal <GND_16_o_b[9]_add_17_OUT> created at line 0.
     Found 13-bit adder for signal <n0484> created at line 0.
-    Found 13-bit adder for signal <GND_15_o_b[9]_add_19_OUT> created at line 0.
+    Found 13-bit adder for signal <GND_16_o_b[9]_add_19_OUT> created at line 0.
     Found 12-bit adder for signal <n0488> created at line 0.
-    Found 12-bit adder for signal <GND_15_o_b[9]_add_21_OUT> created at line 0.
+    Found 12-bit adder for signal <GND_16_o_b[9]_add_21_OUT> created at line 0.
     Found 11-bit adder for signal <n0492> created at line 0.
-    Found 11-bit adder for signal <GND_15_o_b[9]_add_23_OUT> created at line 0.
-    Found 11-bit adder for signal <GND_15_o_BUS_0001_add_26_OUT[10:0]> created at line 0.
+    Found 11-bit adder for signal <GND_16_o_b[9]_add_23_OUT> created at line 0.
+    Found 11-bit adder for signal <GND_16_o_BUS_0001_add_26_OUT[10:0]> created at line 0.
     Found 20-bit comparator greater for signal <BUS_0001_INV_206_o> created at line 0
     Found 19-bit comparator greater for signal <BUS_0002_INV_205_o> created at line 0
     Found 18-bit comparator greater for signal <BUS_0003_INV_204_o> created at line 0
@@ -329,16 +352,16 @@ Synthesizing Unit <div_10s_10s>.
 	inferred  94 Multiplexer(s).
 Unit <div_10s_10s> synthesized.
 
-Synthesizing Unit <eightbitmultiplier_14>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitmultiplier_14.v".
+Synthesizing Unit <eightbitmultiplier_17>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitmultiplier_17.v".
     Found 8x8-bit multiplier for signal <n0003> created at line 16.
     Summary:
 	inferred   1 Multiplier(s).
-Unit <eightbitmultiplier_14> synthesized.
+Unit <eightbitmultiplier_17> synthesized.
 
-Synthesizing Unit <eightbitmod_15>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitmod_15.v".
-    Found 22-bit subtractor for signal <GND_19_o_GND_19_o_sub_17_OUT> created at line 36.
+Synthesizing Unit <eightbitmod_18>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitmod_18.v".
+    Found 22-bit subtractor for signal <GND_20_o_GND_20_o_sub_17_OUT> created at line 36.
     Found 32-bit subtractor for signal <n0033> created at line 38.
     Found 32-bit subtractor for signal <n0032> created at line 38.
     Found 31-bit subtractor for signal <n0031> created at line 38.
@@ -361,31 +384,31 @@ Synthesizing Unit <eightbitmod_15>.
     Found 7-bit adder for signal <n0136[6:0]> created at line 33.
     Found 8-bit adder for signal <n0139[7:0]> created at line 33.
     Found 9-bit adder for signal <n0142[8:0]> created at line 33.
-    Found 11x10-bit multiplier for signal <GND_19_o_GND_19_o_MuLt_15_OUT> created at line 36.
+    Found 11x10-bit multiplier for signal <GND_20_o_GND_20_o_MuLt_15_OUT> created at line 36.
     Summary:
 	inferred   1 Multiplier(s).
 	inferred  23 Adder/Subtractor(s).
-Unit <eightbitmod_15> synthesized.
+Unit <eightbitmod_18> synthesized.
 
-Synthesizing Unit <eightbitxnor_16>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitxnor_16.v".
+Synthesizing Unit <eightbitxnor_19>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitxnor_19.v".
     Summary:
-Unit <eightbitxnor_16> synthesized.
+Unit <eightbitxnor_19> synthesized.
 
-Synthesizing Unit <eightbitnor_17>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnor_17.v".
-    Summary:
-	no macro.
-Unit <eightbitnor_17> synthesized.
-
-Synthesizing Unit <eightbitnand_18>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnand_18.v".
+Synthesizing Unit <eightbitnor_20>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnor_20.v".
     Summary:
 	no macro.
-Unit <eightbitnand_18> synthesized.
+Unit <eightbitnor_20> synthesized.
 
-Synthesizing Unit <eightbitdotproduct_19>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdotproduct_19.v".
+Synthesizing Unit <eightbitnand_21>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnand_21.v".
+    Summary:
+	no macro.
+Unit <eightbitnand_21> synthesized.
+
+Synthesizing Unit <eightbitdotproduct_22>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitdotproduct_22.v".
     Found 32-bit subtractor for signal <n0034> created at line 24.
     Found 32-bit subtractor for signal <n0033> created at line 24.
     Found 31-bit subtractor for signal <n0032> created at line 24.
@@ -413,73 +436,122 @@ Synthesizing Unit <eightbitdotproduct_19>.
     Summary:
 	inferred   8 Multiplier(s).
 	inferred  16 Adder/Subtractor(s).
-Unit <eightbitdotproduct_19> synthesized.
+Unit <eightbitdotproduct_22> synthesized.
 
-Synthesizing Unit <eightbitnota_20>.
-    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnota_20.v".
+Synthesizing Unit <eightbitnota_23>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/eightbitnota_23.v".
     Summary:
 	no macro.
-Unit <eightbitnota_20> synthesized.
+Unit <eightbitnota_23> synthesized.
+
+Synthesizing Unit <reset_conditioner_2>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/reset_conditioner_2.v".
+    Found 4-bit register for signal <M_stage_q>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <reset_conditioner_2> synthesized.
+
+Synthesizing Unit <test_case_3>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/test_case_3.v".
+INFO:Xst:3210 - "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/test_case_3.v" line 81: Output port <led> of the instance <my_alu> is unconnected or connected to loadless signal.
+    Found 4-bit register for signal <M_state_q>.
+    Found finite state machine <FSM_0> for signal <M_state_q>.
+    -----------------------------------------------------------------------
+    | States             | 14                                             |
+    | Transitions        | 39                                             |
+    | Inputs             | 11                                             |
+    | Outputs            | 20                                             |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0000                                           |
+    | Power Up State     | 0000                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <test_case_3> synthesized.
+
+Synthesizing Unit <blinker_24>.
+    Related source file is "C:/Users/Rosen Chang/Documents/50.002-1d-group18/mojo/work/planAhead/mojo/mojo.srcs/sources_1/imports/verilog/blinker_24.v".
+    Found 26-bit register for signal <M_counter_q>.
+    Found 27-bit register for signal <M_holder_q>.
+    Found 26-bit adder for signal <M_counter_d> created at line 25.
+    Found 27-bit adder for signal <M_holder_d> created at line 27.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  53 D-type flip-flop(s).
+Unit <blinker_24> synthesized.
 
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# Multipliers                                          : 10
- 11x10-bit multiplier                                  : 1
- 1x1-bit multiplier                                    : 8
- 8x8-bit multiplier                                    : 1
-# Adders/Subtractors                                   : 114
- 10-bit subtractor                                     : 4
- 11-bit adder                                          : 6
- 12-bit adder                                          : 4
- 13-bit adder                                          : 4
- 14-bit adder                                          : 4
- 15-bit adder                                          : 4
- 16-bit adder                                          : 4
- 17-bit adder                                          : 4
- 18-bit adder                                          : 4
- 19-bit adder                                          : 4
- 20-bit adder                                          : 4
- 22-bit subtractor                                     : 1
- 26-bit subtractor                                     : 3
- 27-bit subtractor                                     : 3
- 28-bit subtractor                                     : 3
- 29-bit subtractor                                     : 3
- 3-bit adder                                           : 5
- 30-bit subtractor                                     : 3
- 31-bit subtractor                                     : 3
- 32-bit adder                                          : 8
- 32-bit subtractor                                     : 6
- 4-bit adder                                           : 5
- 5-bit adder                                           : 5
- 6-bit adder                                           : 5
- 7-bit adder                                           : 5
- 8-bit adder                                           : 4
- 8-bit subtractor                                      : 1
- 9-bit adder                                           : 5
-# Comparators                                          : 22
- 10-bit comparator greater                             : 2
- 11-bit comparator greater                             : 2
- 12-bit comparator greater                             : 2
- 13-bit comparator greater                             : 2
- 14-bit comparator greater                             : 2
- 15-bit comparator greater                             : 2
- 16-bit comparator greater                             : 2
- 17-bit comparator greater                             : 2
- 18-bit comparator greater                             : 2
- 19-bit comparator greater                             : 2
- 20-bit comparator greater                             : 2
-# Multiplexers                                         : 215
- 1-bit 2-to-1 multiplexer                              : 201
- 10-bit 2-to-1 multiplexer                             : 6
- 11-bit 2-to-1 multiplexer                             : 2
- 8-bit 2-to-1 multiplexer                              : 6
+# Multipliers                                          : 20
+ 11x10-bit multiplier                                  : 2
+ 1x1-bit multiplier                                    : 16
+ 8x8-bit multiplier                                    : 2
+# Adders/Subtractors                                   : 230
+ 10-bit subtractor                                     : 8
+ 11-bit adder                                          : 12
+ 12-bit adder                                          : 8
+ 13-bit adder                                          : 8
+ 14-bit adder                                          : 8
+ 15-bit adder                                          : 8
+ 16-bit adder                                          : 8
+ 17-bit adder                                          : 8
+ 18-bit adder                                          : 8
+ 19-bit adder                                          : 8
+ 20-bit adder                                          : 8
+ 22-bit subtractor                                     : 2
+ 26-bit adder                                          : 1
+ 26-bit subtractor                                     : 6
+ 27-bit adder                                          : 1
+ 27-bit subtractor                                     : 6
+ 28-bit subtractor                                     : 6
+ 29-bit subtractor                                     : 6
+ 3-bit adder                                           : 10
+ 30-bit subtractor                                     : 6
+ 31-bit subtractor                                     : 6
+ 32-bit adder                                          : 16
+ 32-bit subtractor                                     : 12
+ 4-bit adder                                           : 10
+ 5-bit adder                                           : 10
+ 6-bit adder                                           : 10
+ 7-bit adder                                           : 10
+ 8-bit adder                                           : 8
+ 8-bit subtractor                                      : 2
+ 9-bit adder                                           : 10
+# Registers                                            : 3
+ 26-bit register                                       : 1
+ 27-bit register                                       : 1
+ 4-bit register                                        : 1
+# Comparators                                          : 44
+ 10-bit comparator greater                             : 4
+ 11-bit comparator greater                             : 4
+ 12-bit comparator greater                             : 4
+ 13-bit comparator greater                             : 4
+ 14-bit comparator greater                             : 4
+ 15-bit comparator greater                             : 4
+ 16-bit comparator greater                             : 4
+ 17-bit comparator greater                             : 4
+ 18-bit comparator greater                             : 4
+ 19-bit comparator greater                             : 4
+ 20-bit comparator greater                             : 4
+# Multiplexers                                         : 433
+ 1-bit 2-to-1 multiplexer                              : 402
+ 10-bit 2-to-1 multiplexer                             : 12
+ 11-bit 2-to-1 multiplexer                             : 4
+ 24-bit 2-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 14
 # Tristates                                            : 6
  1-bit tristate buffer                                 : 6
-# Xors                                                 : 6
- 1-bit xor2                                            : 4
- 8-bit xor2                                            : 2
+# FSMs                                                 : 1
+# Xors                                                 : 12
+ 1-bit xor2                                            : 8
+ 8-bit xor2                                            : 4
 
 =========================================================================
 
@@ -488,101 +560,175 @@ Macro Statistics
 =========================================================================
 
 
-Synthesizing (advanced) Unit <eightbitdivider_13>.
+Synthesizing (advanced) Unit <alu_1>.
+	The following adders/subtractors are grouped into adder tree <Madd__n01171> :
+ 	<Madd_n0106[3:0]_Madd> in block <alu_1>, 	<Madd_n0109[4:0]> in block <alu_1>, 	<Madd_n0112[5:0]> in block <alu_1>, 	<Madd__n0117> in block <alu_1>.
+Unit <alu_1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <blinker_24>.
+The following registers are absorbed into counter <M_counter_q>: 1 register on signal <M_counter_q>.
+The following registers are absorbed into counter <M_holder_q>: 1 register on signal <M_holder_q>.
+Unit <blinker_24> synthesized (advanced).
+
+Synthesizing (advanced) Unit <eightbitdivider_16>.
 	The following adders/subtractors are grouped into adder tree <Madd_n0114[8:0]1> :
- 	<Madd_n0099[3:0]_Madd> in block <eightbitdivider_13>, 	<Madd_n0102[4:0]> in block <eightbitdivider_13>, 	<Madd_n0105[5:0]> in block <eightbitdivider_13>, 	<Madd_n0108[6:0]> in block <eightbitdivider_13>, 	<Madd_n0111[7:0]> in block <eightbitdivider_13>, 	<Madd_n0114[8:0]> in block <eightbitdivider_13>.
+ 	<Madd_n0099[3:0]_Madd> in block <eightbitdivider_16>, 	<Madd_n0102[4:0]> in block <eightbitdivider_16>, 	<Madd_n0105[5:0]> in block <eightbitdivider_16>, 	<Madd_n0108[6:0]> in block <eightbitdivider_16>, 	<Madd_n0111[7:0]> in block <eightbitdivider_16>, 	<Madd_n0114[8:0]> in block <eightbitdivider_16>.
 	The following adders/subtractors are grouped into adder tree <Madd_n0135[8:0]1> :
- 	<Madd_n0120[3:0]_Madd> in block <eightbitdivider_13>, 	<Madd_n0123[4:0]> in block <eightbitdivider_13>, 	<Madd_n0126[5:0]> in block <eightbitdivider_13>, 	<Madd_n0129[6:0]> in block <eightbitdivider_13>, 	<Madd_n0132[7:0]> in block <eightbitdivider_13>, 	<Madd_n0135[8:0]> in block <eightbitdivider_13>.
-Unit <eightbitdivider_13> synthesized (advanced).
+ 	<Madd_n0120[3:0]_Madd> in block <eightbitdivider_16>, 	<Madd_n0123[4:0]> in block <eightbitdivider_16>, 	<Madd_n0126[5:0]> in block <eightbitdivider_16>, 	<Madd_n0129[6:0]> in block <eightbitdivider_16>, 	<Madd_n0132[7:0]> in block <eightbitdivider_16>, 	<Madd_n0135[8:0]> in block <eightbitdivider_16>.
+Unit <eightbitdivider_16> synthesized (advanced).
 
-Synthesizing (advanced) Unit <eightbitdotproduct_19>.
+Synthesizing (advanced) Unit <eightbitdotproduct_22>.
 	The following adders/subtractors are grouped into adder tree <Madd_count1> :
- 	<Madd_count> in block <eightbitdotproduct_19>, 	<Madd__n0116> in block <eightbitdotproduct_19>, 	<Madd__n0117> in block <eightbitdotproduct_19>, 	<Madd__n0119> in block <eightbitdotproduct_19>, 	<Madd__n0120> in block <eightbitdotproduct_19>.
+ 	<Madd_count> in block <eightbitdotproduct_22>, 	<Madd__n0116> in block <eightbitdotproduct_22>, 	<Madd__n0117> in block <eightbitdotproduct_22>, 	<Madd__n0119> in block <eightbitdotproduct_22>, 	<Madd__n0120> in block <eightbitdotproduct_22>.
 	The following adders/subtractors are grouped into adder tree <Madd__n01221> :
- 	<Madd__n0118> in block <eightbitdotproduct_19>, 	<Madd__n0121> in block <eightbitdotproduct_19>.
-	Multiplier <Mmult_a[7]_b[7]_MuLt_14_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd7> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[7]_b[7]_MuLt_14_OUT>.
-	Multiplier <Mmult_a[6]_b[6]_MuLt_12_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd6> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[6]_b[6]_MuLt_12_OUT>.
-	Multiplier <Mmult_a[5]_b[5]_MuLt_10_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd5> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[5]_b[5]_MuLt_10_OUT>.
-	Multiplier <Mmult_a[4]_b[4]_MuLt_8_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd4> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[4]_b[4]_MuLt_8_OUT>.
-	Multiplier <Mmult_a[3]_b[3]_MuLt_6_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd3> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[3]_b[3]_MuLt_6_OUT>.
-	Multiplier <Mmult_a[2]_b[2]_MuLt_4_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd2> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[2]_b[2]_MuLt_4_OUT>.
-	Multiplier <Mmult_a[1]_b[1]_MuLt_2_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd1> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[1]_b[1]_MuLt_2_OUT>.
-	Multiplier <Mmult_a[0]_b[0]_MuLt_0_OUT> in block <eightbitdotproduct_19> and adder/subtractor <ADDER_FOR_MULTADD_Madd> in block <eightbitdotproduct_19> are combined into a MAC<Maddsub_a[0]_b[0]_MuLt_0_OUT>.
-Unit <eightbitdotproduct_19> synthesized (advanced).
+ 	<Madd__n0118> in block <eightbitdotproduct_22>, 	<Madd__n0121> in block <eightbitdotproduct_22>.
+	Multiplier <Mmult_a[7]_b[7]_MuLt_14_OUT> in block <eightbitdotproduct_22> and adder/subtractor <ADDER_FOR_MULTADD_Madd7> in block <eightbitdotproduct_22> are combined into a MAC<Maddsub_a[7]_b[7]_MuLt_14_OUT>.
+	Multiplier <Mmult_a[6]_b[6]_MuLt_12_OUT> in block <eightbitdotproduct_22> and adder/subtractor <ADDER_FOR_MULTADD_Madd6> in block <eightbitdotproduct_22> are combined into a MAC<Maddsub_a[6]_b[6]_MuLt_12_OUT>.
+	Multiplier <Mmult_a[5]_b[5]_MuLt_10_OUT> in block <eightbitdotproduct_22> and adder/subtractor <ADDER_FOR_MULTADD_Madd5> in block <eightbitdotproduct_22> are combined into a MAC<Maddsub_a[5]_b[5]_MuLt_10_OUT>.
+	Multiplier <Mmult_a[4]_b[4]_MuLt_8_OUT> in block <eightbitdotproduct_22> and adder/subtractor <ADDER_FOR_MULTADD_Madd4> in block <eightbitdotproduct_22> are combined into a MAC<Maddsub_a[4]_b[4]_MuLt_8_OUT>.
+	Multiplier <Mmult_a[3]_b[3]_MuLt_6_OUT> in block <eightbitdotproduct_22> and adder/subtractor <ADDER_FOR_MULTADD_Madd3> in block <eightbitdotproduct_22> are combined into a MAC<Maddsub_a[3]_b[3]_MuLt_6_OUT>.
+	Multiplier <Mmult_a[2]_b[2]_MuLt_4_OUT> in block <eightbitdotproduct_22> and adder/subtractor <ADDER_FOR_MULTADD_Madd2> in block <eightbitdotproduct_22> are combined into a MAC<Maddsub_a[2]_b[2]_MuLt_4_OUT>.
+	Multiplier <Mmult_a[1]_b[1]_MuLt_2_OUT> in block <eightbitdotproduct_22> and adder/subtractor <ADDER_FOR_MULTADD_Madd1> in block <eightbitdotproduct_22> are combined into a MAC<Maddsub_a[1]_b[1]_MuLt_2_OUT>.
+	Multiplier <Mmult_a[0]_b[0]_MuLt_0_OUT> in block <eightbitdotproduct_22> and adder/subtractor <ADDER_FOR_MULTADD_Madd> in block <eightbitdotproduct_22> are combined into a MAC<Maddsub_a[0]_b[0]_MuLt_0_OUT>.
+Unit <eightbitdotproduct_22> synthesized (advanced).
 
-Synthesizing (advanced) Unit <eightbitmod_15>.
+Synthesizing (advanced) Unit <eightbitmod_18>.
 	The following adders/subtractors are grouped into adder tree <Madd_n0121[8:0]1> :
- 	<Madd_n0106[3:0]_Madd> in block <eightbitmod_15>, 	<Madd_n0109[4:0]> in block <eightbitmod_15>, 	<Madd_n0112[5:0]> in block <eightbitmod_15>, 	<Madd_n0115[6:0]> in block <eightbitmod_15>, 	<Madd_n0118[7:0]> in block <eightbitmod_15>, 	<Madd_n0121[8:0]> in block <eightbitmod_15>.
+ 	<Madd_n0106[3:0]_Madd> in block <eightbitmod_18>, 	<Madd_n0109[4:0]> in block <eightbitmod_18>, 	<Madd_n0112[5:0]> in block <eightbitmod_18>, 	<Madd_n0115[6:0]> in block <eightbitmod_18>, 	<Madd_n0118[7:0]> in block <eightbitmod_18>, 	<Madd_n0121[8:0]> in block <eightbitmod_18>.
 	The following adders/subtractors are grouped into adder tree <Madd_n0142[8:0]1> :
- 	<Madd_n0127[3:0]_Madd> in block <eightbitmod_15>, 	<Madd_n0130[4:0]> in block <eightbitmod_15>, 	<Madd_n0133[5:0]> in block <eightbitmod_15>, 	<Madd_n0136[6:0]> in block <eightbitmod_15>, 	<Madd_n0139[7:0]> in block <eightbitmod_15>, 	<Madd_n0142[8:0]> in block <eightbitmod_15>.
-	Multiplier <Mmult_GND_19_o_GND_19_o_MuLt_15_OUT> in block <eightbitmod_15> and adder/subtractor <Msub_GND_19_o_GND_19_o_sub_17_OUT_Madd> in block <eightbitmod_15> are combined into a MAC<Maddsub_GND_19_o_GND_19_o_MuLt_15_OUT>.
-Unit <eightbitmod_15> synthesized (advanced).
-
-Synthesizing (advanced) Unit <mojo_top_0>.
-	The following adders/subtractors are grouped into adder tree <Madd__n01231> :
- 	<Madd_n0112[3:0]_Madd> in block <mojo_top_0>, 	<Madd_n0115[4:0]> in block <mojo_top_0>, 	<Madd_n0118[5:0]> in block <mojo_top_0>, 	<Madd__n0123> in block <mojo_top_0>.
-Unit <mojo_top_0> synthesized (advanced).
+ 	<Madd_n0127[3:0]_Madd> in block <eightbitmod_18>, 	<Madd_n0130[4:0]> in block <eightbitmod_18>, 	<Madd_n0133[5:0]> in block <eightbitmod_18>, 	<Madd_n0136[6:0]> in block <eightbitmod_18>, 	<Madd_n0139[7:0]> in block <eightbitmod_18>, 	<Madd_n0142[8:0]> in block <eightbitmod_18>.
+	Multiplier <Mmult_GND_20_o_GND_20_o_MuLt_15_OUT> in block <eightbitmod_18> and adder/subtractor <Msub_GND_20_o_GND_20_o_sub_17_OUT_Madd> in block <eightbitmod_18> are combined into a MAC<Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT>.
+Unit <eightbitmod_18> synthesized (advanced).
 
 =========================================================================
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# MACs                                                 : 9
- 11x10-to-8-bit MAC                                    : 1
- 1x1-to-32-bit MAC                                     : 8
-# Multipliers                                          : 1
- 8x8-bit multiplier                                    : 1
-# Adders/Subtractors                                   : 52
- 1-bit subtractor                                      : 24
- 10-bit adder carry in                                 : 20
- 10-bit subtractor                                     : 4
- 11-bit adder                                          : 2
- 8-bit subtractor                                      : 1
- 9-bit adder                                           : 1
-# Adder Trees                                          : 5
- 7-bit / 5-inputs adder tree                           : 1
- 9-bit / 7-inputs adder tree                           : 4
-# Comparators                                          : 22
- 10-bit comparator greater                             : 2
- 11-bit comparator greater                             : 2
- 12-bit comparator greater                             : 2
- 13-bit comparator greater                             : 2
- 14-bit comparator greater                             : 2
- 15-bit comparator greater                             : 2
- 16-bit comparator greater                             : 2
- 17-bit comparator greater                             : 2
- 18-bit comparator greater                             : 2
- 19-bit comparator greater                             : 2
- 20-bit comparator greater                             : 2
-# Multiplexers                                         : 215
- 1-bit 2-to-1 multiplexer                              : 201
- 10-bit 2-to-1 multiplexer                             : 6
- 11-bit 2-to-1 multiplexer                             : 2
- 8-bit 2-to-1 multiplexer                              : 6
-# Xors                                                 : 6
- 1-bit xor2                                            : 4
- 8-bit xor2                                            : 2
+# MACs                                                 : 18
+ 11x10-to-8-bit MAC                                    : 2
+ 1x1-to-32-bit MAC                                     : 16
+# Multipliers                                          : 2
+ 8x8-bit multiplier                                    : 2
+# Adders/Subtractors                                   : 104
+ 1-bit subtractor                                      : 48
+ 10-bit adder carry in                                 : 40
+ 10-bit subtractor                                     : 8
+ 11-bit adder                                          : 4
+ 8-bit subtractor                                      : 2
+ 9-bit adder                                           : 2
+# Adder Trees                                          : 10
+ 7-bit / 5-inputs adder tree                           : 2
+ 9-bit / 7-inputs adder tree                           : 8
+# Counters                                             : 2
+ 26-bit up counter                                     : 1
+ 27-bit up counter                                     : 1
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+# Comparators                                          : 44
+ 10-bit comparator greater                             : 4
+ 11-bit comparator greater                             : 4
+ 12-bit comparator greater                             : 4
+ 13-bit comparator greater                             : 4
+ 14-bit comparator greater                             : 4
+ 15-bit comparator greater                             : 4
+ 16-bit comparator greater                             : 4
+ 17-bit comparator greater                             : 4
+ 18-bit comparator greater                             : 4
+ 19-bit comparator greater                             : 4
+ 20-bit comparator greater                             : 4
+# Multiplexers                                         : 433
+ 1-bit 2-to-1 multiplexer                              : 402
+ 10-bit 2-to-1 multiplexer                             : 12
+ 11-bit 2-to-1 multiplexer                             : 4
+ 24-bit 2-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 14
+# FSMs                                                 : 1
+# Xors                                                 : 12
+ 1-bit xor2                                            : 8
+ 8-bit xor2                                            : 4
 
 =========================================================================
 
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <my_test/FSM_0> on signal <M_state_q[1:4]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0001  | 0001
+ 0010  | 0011
+ 0011  | 0010
+ 0100  | 0110
+ 0101  | 0111
+ 0110  | 0101
+ 0111  | 0100
+ 1000  | 1100
+ 1001  | 1101
+ 1010  | 1111
+ 1011  | 1110
+ 1100  | 1010
+ 1101  | 1011
+-------------------
+WARNING:Xst:2677 - Node <myBlinker/M_counter_q_25> of sequential type is unconnected in block <test_case_3>.
+WARNING:Xst:1989 - Unit <alu_1>: instances <divider/GND_15_o_GND_15_o_div_14>, <modd/GND_20_o_GND_20_o_div_14> of unit <div_10s_10s> are equivalent, second instance is removed
 
 Optimizing unit <mojo_top_0> ...
 
+Optimizing unit <test_case_3> ...
+
+Optimizing unit <alu_1> ...
+
 Optimizing unit <div_10s_10s> ...
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_0> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_0> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_1> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_1> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_2> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_2> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_3> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_3> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_4> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_4> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_5> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_5> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_6> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_7> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_8> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_8> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_9> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_9> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_10> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_10> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_11> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_11> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_12> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_12> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_13> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_13> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_14> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_14> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_20> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_20> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_15> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_15> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_21> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_21> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_16> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_16> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_22> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_22> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_17> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_17> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_23> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_23> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_18> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_18> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_24> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_24> 
+INFO:Xst:2261 - The FF/Latch <my_test/myBlinker/M_counter_q_19> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <my_test/myBlinker/M_holder_q_19> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 0) on block mojo_top_0, actual ratio is 9.
+Found area constraint ratio of 100 (+ 0) on block mojo_top_0, actual ratio is 16.
+FlipFlop my_test/M_state_q_FSM_FFd1 has been replicated 2 time(s)
+FlipFlop my_test/M_state_q_FSM_FFd2 has been replicated 2 time(s)
+FlipFlop my_test/M_state_q_FSM_FFd3 has been replicated 1 time(s)
+FlipFlop my_test/M_state_q_FSM_FFd4 has been replicated 1 time(s)
 
 Final Macro Processing ...
+
+Processing Unit <mojo_top_0> :
+INFO:Xst:741 - HDL ADVISOR - A 4-bit shift register was found for signal <reset_cond/M_stage_q_3> and currently occupies 4 logic cells (2 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+Unit <mojo_top_0> processed.
 
 =========================================================================
 Final Register Report
 
-Found no macro
+Macro Statistics
+# Registers                                            : 41
+ Flip-Flops                                            : 41
+
 =========================================================================
 
 =========================================================================
@@ -604,23 +750,30 @@ Top Level Output File Name         : mojo_top_0.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 545
-#      GND                         : 7
-#      LUT2                        : 27
-#      LUT3                        : 61
-#      LUT4                        : 91
-#      LUT5                        : 68
-#      LUT6                        : 110
-#      MUXCY                       : 93
-#      MUXF7                       : 5
-#      VCC                         : 7
-#      XORCY                       : 76
-# IO Buffers                       : 60
-#      IBUF                        : 22
+# BELS                             : 1162
+#      GND                         : 15
+#      INV                         : 23
+#      LUT1                        : 61
+#      LUT2                        : 90
+#      LUT3                        : 60
+#      LUT4                        : 143
+#      LUT5                        : 97
+#      LUT6                        : 188
+#      MUXCY                       : 231
+#      MUXF7                       : 9
+#      VCC                         : 12
+#      XORCY                       : 233
+# FlipFlops/Latches                : 41
+#      FDR                         : 37
+#      FDS                         : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 62
+#      IBUF                        : 24
 #      OBUF                        : 32
 #      OBUFT                       : 6
-# DSPs                             : 10
-#      DSP48A1                     : 10
+# DSPs                             : 16
+#      DSP48A1                     : 16
 
 Device utilization summary:
 ---------------------------
@@ -629,22 +782,24 @@ Selected Device : 6slx9tqg144-2
 
 
 Slice Logic Utilization: 
- Number of Slice LUTs:                  357  out of   5720     6%  
-    Number used as Logic:               357  out of   5720     6%  
+ Number of Slice Registers:              41  out of  11440     0%  
+ Number of Slice LUTs:                  662  out of   5720    11%  
+    Number used as Logic:               662  out of   5720    11%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    357
-   Number with an unused Flip Flop:     357  out of    357   100%  
-   Number with an unused LUT:             0  out of    357     0%  
-   Number of fully used LUT-FF pairs:     0  out of    357     0%  
-   Number of unique control sets:         0
+ Number of LUT Flip Flop pairs used:    690
+   Number with an unused Flip Flop:     649  out of    690    94%  
+   Number with an unused LUT:            28  out of    690     4%  
+   Number of fully used LUT-FF pairs:    13  out of    690     1%  
+   Number of unique control sets:         3
 
 IO Utilization: 
- Number of IOs:                          62
- Number of bonded IOBs:                  60  out of    102    58%  
+ Number of IOs:                          64
+ Number of bonded IOBs:                  63  out of    102    61%  
 
 Specific Feature Utilization:
- Number of DSP48A1s:                     10  out of     16    62%  
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+ Number of DSP48A1s:                     16  out of     16   100%  
 
 ---------------------------
 Partition Resource Summary:
@@ -664,7 +819,11 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
-No clock signals found in this design
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 41    |
+-----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
 ----------------------------------------
@@ -674,93 +833,211 @@ Timing Summary:
 ---------------
 Speed Grade: -2
 
-   Minimum period: No path found
-   Minimum input arrival time before clock: No path found
-   Maximum output required time after clock: No path found
-   Maximum combinational path delay: 47.688ns
+   Minimum period: 29.535ns (Maximum Frequency: 33.858MHz)
+   Minimum input arrival time before clock: 3.526ns
+   Maximum output required time after clock: 30.352ns
+   Maximum combinational path delay: 48.536ns
 
 Timing Details:
 ---------------
 All values displayed in nanoseconds (ns)
 
 =========================================================================
-Timing constraint: Default path analysis
-  Total number of paths / destination ports: 9595595861420 / 27
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 29.535ns (frequency: 33.858MHz)
+  Total number of paths / destination ports: 9546020984501 / 77
 -------------------------------------------------------------------------
-Delay:               47.688ns (Levels of Logic = 44)
-  Source:            io_dip<11> (PAD)
-  Destination:       io_led<23> (PAD)
+Delay:               29.535ns (Levels of Logic = 15)
+  Source:            my_test/M_state_q_FSM_FFd4_1 (FF)
+  Destination:       my_test/M_state_q_FSM_FFd4 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
 
-  Data Path: io_dip<11> to io_led<23>
+  Data Path: my_test/M_state_q_FSM_FFd4_1 to my_test/M_state_q_FSM_FFd4
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            51   1.328   2.259  io_dip_11_IBUF (ADDERTREE_INTERNAL_Madd18_lut<0>3)
-     begin scope: 'modd:b<3>'
-     begin scope: 'modd/GND_19_o_GND_19_o_div_14:ADDERTREE_INTERNAL_Madd18_lut<0>3'
-     LUT5:I0->O            3   0.254   1.042  BUS_0004_INV_203_o221 (BUS_0004_INV_203_o22)
-     LUT4:I0->O            4   0.254   1.032  BUS_0004_INV_203_o21 (Madd_GND_15_o_BUS_0001_add_26_OUT[10:0]_lut<7>)
-     LUT3:I0->O            3   0.235   1.042  Mmux_a[9]_GND_15_o_MUX_178_o121 (a[9]_GND_15_o_MUX_180_o)
-     LUT6:I2->O            4   0.254   1.234  BUS_0005_INV_202_o1 (BUS_0005_INV_202_o1)
-     LUT5:I0->O            6   0.254   1.331  BUS_0005_INV_202_o21 (Madd_GND_15_o_BUS_0001_add_26_OUT[10:0]_lut<6>)
-     LUT6:I0->O            4   0.254   1.259  Mmux_a[9]_GND_15_o_MUX_210_o121 (a[9]_GND_15_o_MUX_212_o)
-     LUT6:I0->O            3   0.254   0.874  BUS_0006_INV_201_o1 (BUS_0006_INV_201_o1)
-     LUT6:I4->O           12   0.250   1.524  BUS_0006_INV_201_o21 (Madd_GND_15_o_BUS_0001_add_26_OUT[10:0]_lut<5>)
-     LUT6:I0->O            2   0.254   1.181  Mmux_a[9]_GND_15_o_MUX_240_o131 (a[9]_GND_15_o_MUX_243_o)
+     FDR:C->Q              1   0.525   0.958  M_state_q_FSM_FFd4_1 (M_state_q_FSM_FFd4_1)
+     LUT4:I0->O           14   0.254   1.126  M_state_q__n0248<13>1 (_n0248<13>)
+     begin scope: 'my_test/my_alu:b<1>'
+     begin scope: 'my_test/my_alu/dotproduct:b<1>'
+     DSP48A1:A0->PCOUT47    1   5.228   0.000  Maddsub_a[1]_b[1]_MuLt_2_OUT (Maddsub_a[2]_b[2]_MuLt_4_OUT_PCIN_47)
+     DSP48A1:PCIN47->PCOUT47    1   2.653   0.000  Maddsub_a[2]_b[2]_MuLt_4_OUT (Maddsub_a[3]_b[3]_MuLt_6_OUT_PCIN_47)
+     DSP48A1:PCIN47->PCOUT47    1   2.653   0.000  Maddsub_a[3]_b[3]_MuLt_6_OUT (Maddsub_a[4]_b[4]_MuLt_8_OUT_PCIN_47)
+     DSP48A1:PCIN47->PCOUT47    1   2.653   0.000  Maddsub_a[4]_b[4]_MuLt_8_OUT (Maddsub_a[5]_b[5]_MuLt_10_OUT_PCIN_47)
+     DSP48A1:PCIN47->PCOUT47    1   2.653   0.000  Maddsub_a[5]_b[5]_MuLt_10_OUT (Maddsub_a[6]_b[6]_MuLt_12_OUT_PCIN_47)
+     DSP48A1:PCIN47->PCOUT47    1   2.653   0.000  Maddsub_a[6]_b[6]_MuLt_12_OUT (Maddsub_a[7]_b[7]_MuLt_14_OUT_PCIN_47)
+     DSP48A1:PCIN47->P1    1   2.645   0.682  Maddsub_a[7]_b[7]_MuLt_14_OUT (ADDER_FOR_MULTADD_Madd_127)
+     end scope: 'my_test/my_alu/dotproduct:ADDER_FOR_MULTADD_Madd_127'
+     LUT6:I5->O            7   0.254   1.340  m<1>5 (io_led<17>)
+     end scope: 'my_test/my_alu:io_led<17>'
+     LUT5:I0->O            4   0.254   0.804  M_my_alu_io_led[23]_GND_29_o_equal_27_o<23>11 (M_my_alu_io_led[23]_GND_29_o_equal_27_o<23>1)
+     LUT5:I4->O            1   0.254   0.682  M_my_alu_io_led[23]_GND_29_o_equal_30_o<23>11 (M_my_alu_io_led[23]_GND_29_o_equal_30_o<23>1)
+     LUT6:I5->O            1   0.254   0.682  M_state_q_FSM_FFd4-In4 (M_state_q_FSM_FFd4-In4)
+     LUT5:I4->O            2   0.254   0.000  M_state_q_FSM_FFd4-In8 (M_state_q_FSM_FFd4-In)
+     FDR:D                     0.074          M_state_q_FSM_FFd4
+    ----------------------------------------
+    Total                     29.535ns (23.261ns logic, 6.274ns route)
+                                       (78.8% logic, 21.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.526ns (Levels of Logic = 3)
+  Source:            rst_n (PAD)
+  Destination:       reset_cond/M_stage_q_3 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst_n to reset_cond/M_stage_q_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  rst_n_IBUF (rst_n_IBUF)
+     INV:I->O              4   0.255   0.803  M_reset_cond_in1_INV_0 (M_reset_cond_in)
+     begin scope: 'reset_cond:in'
+     FDS:S                     0.459          M_stage_q_0
+    ----------------------------------------
+    Total                      3.526ns (2.042ns logic, 1.484ns route)
+                                       (57.9% logic, 42.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 399843301500 / 14
+-------------------------------------------------------------------------
+Offset:              30.352ns (Levels of Logic = 14)
+  Source:            my_test/M_state_q_FSM_FFd4_1 (FF)
+  Destination:       led<2> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: my_test/M_state_q_FSM_FFd4_1 to led<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.525   0.958  M_state_q_FSM_FFd4_1 (M_state_q_FSM_FFd4_1)
+     LUT4:I0->O           14   0.254   1.126  M_state_q__n0248<13>1 (_n0248<13>)
+     begin scope: 'my_test/my_alu:b<1>'
+     begin scope: 'my_test/my_alu/dotproduct:b<1>'
+     DSP48A1:A0->PCOUT47    1   5.228   0.000  Maddsub_a[1]_b[1]_MuLt_2_OUT (Maddsub_a[2]_b[2]_MuLt_4_OUT_PCIN_47)
+     DSP48A1:PCIN47->PCOUT47    1   2.653   0.000  Maddsub_a[2]_b[2]_MuLt_4_OUT (Maddsub_a[3]_b[3]_MuLt_6_OUT_PCIN_47)
+     DSP48A1:PCIN47->PCOUT47    1   2.653   0.000  Maddsub_a[3]_b[3]_MuLt_6_OUT (Maddsub_a[4]_b[4]_MuLt_8_OUT_PCIN_47)
+     DSP48A1:PCIN47->PCOUT47    1   2.653   0.000  Maddsub_a[4]_b[4]_MuLt_8_OUT (Maddsub_a[5]_b[5]_MuLt_10_OUT_PCIN_47)
+     DSP48A1:PCIN47->PCOUT47    1   2.653   0.000  Maddsub_a[5]_b[5]_MuLt_10_OUT (Maddsub_a[6]_b[6]_MuLt_12_OUT_PCIN_47)
+     DSP48A1:PCIN47->PCOUT47    1   2.653   0.000  Maddsub_a[6]_b[6]_MuLt_12_OUT (Maddsub_a[7]_b[7]_MuLt_14_OUT_PCIN_47)
+     DSP48A1:PCIN47->P2    6   2.645   0.876  Maddsub_a[7]_b[7]_MuLt_14_OUT (ADDER_FOR_MULTADD_Madd_227)
+     end scope: 'my_test/my_alu/dotproduct:ADDER_FOR_MULTADD_Madd_227'
+     LUT6:I5->O            8   0.254   1.374  m<2>6 (io_led<18>)
+     end scope: 'my_test/my_alu:io_led<18>'
+     end scope: 'my_test:M_my_alu_io_led<18>'
+     LUT6:I1->O            1   0.254   0.681  Mmux_led3 (led_2_OBUF)
+     OBUF:I->O                 2.912          led_2_OBUF (led<2>)
+    ----------------------------------------
+    Total                     30.352ns (25.337ns logic, 5.015ns route)
+                                       (83.5% logic, 16.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 9934177028272 / 32
+-------------------------------------------------------------------------
+Delay:               48.536ns (Levels of Logic = 59)
+  Source:            io_dip<12> (PAD)
+  Destination:       io_led<23> (PAD)
+
+  Data Path: io_dip<12> to io_led<23>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            37   1.328   1.880  io_dip_12_IBUF (io_dip_12_IBUF)
+     begin scope: 'myalu:b<4>'
+     begin scope: 'myalu/divider:b<4>'
+     begin scope: 'myalu/divider/GND_15_o_GND_15_o_div_14:io_dip_12_IBUF'
+     LUT4:I0->O            2   0.254   1.002  BUS_0004_INV_203_o2_SW1 (N89)
+     LUT6:I2->O            3   0.254   1.042  Mmux_a[9]_GND_16_o_MUX_178_o121 (a[9]_GND_16_o_MUX_180_o)
+     LUT6:I2->O            2   0.254   1.156  BUS_0005_INV_202_o1 (BUS_0005_INV_202_o1)
+     LUT5:I0->O            7   0.254   1.365  BUS_0005_INV_202_o21 (Madd_GND_16_o_BUS_0001_add_26_OUT[10:0]_lut<6>)
+     LUT6:I0->O            3   0.254   1.221  Mmux_a[9]_GND_16_o_MUX_210_o121 (a[9]_GND_16_o_MUX_212_o)
+     LUT6:I0->O            2   0.254   0.834  BUS_0006_INV_201_o1 (BUS_0006_INV_201_o1)
+     LUT6:I4->O           14   0.250   1.582  BUS_0006_INV_201_o21 (Madd_GND_16_o_BUS_0001_add_26_OUT[10:0]_lut<5>)
+     LUT6:I0->O            2   0.254   1.181  Mmux_a[9]_GND_16_o_MUX_240_o131 (a[9]_GND_16_o_MUX_243_o)
      LUT6:I0->O            1   0.254   0.910  BUS_0007_INV_200_o1 (BUS_0007_INV_200_o1)
-     LUT5:I2->O            4   0.235   1.032  BUS_0007_INV_200_o23_SW0 (N16)
-     LUT5:I2->O           12   0.235   1.499  BUS_0007_INV_200_o23 (Madd_GND_15_o_BUS_0001_add_26_OUT[10:0]_lut<4>)
-     LUT5:I0->O            3   0.254   1.221  Mmux_a[9]_GND_15_o_MUX_268_o141 (a[9]_GND_15_o_MUX_272_o)
+     LUT5:I2->O            4   0.235   1.032  BUS_0007_INV_200_o23_SW0 (N71)
+     LUT5:I2->O           17   0.235   1.639  BUS_0007_INV_200_o23 (Madd_GND_16_o_BUS_0001_add_26_OUT[10:0]_lut<4>)
+     LUT5:I0->O            3   0.254   1.221  Mmux_a[9]_GND_16_o_MUX_268_o141 (a[9]_GND_16_o_MUX_272_o)
      LUT6:I0->O            2   0.254   0.954  BUS_0008_INV_199_o3 (BUS_0008_INV_199_o1)
-     LUT6:I3->O            1   0.235   0.000  BUS_0008_INV_199_o1_F (N30)
-     MUXF7:I0->O          11   0.163   1.267  BUS_0008_INV_199_o1 (BUS_0008_INV_199_o2)
-     LUT6:I3->O            5   0.235   1.117  Mmux_a[9]_GND_15_o_MUX_294_o161 (a[9]_GND_15_o_MUX_300_o)
+     LUT6:I3->O            1   0.235   0.000  BUS_0008_INV_199_o1_F (N99)
+     MUXF7:I0->O          13   0.163   1.326  BUS_0008_INV_199_o1 (BUS_0008_INV_199_o2)
+     LUT6:I3->O            5   0.235   1.117  Mmux_a[9]_GND_16_o_MUX_294_o161 (a[9]_GND_16_o_MUX_300_o)
      LUT4:I0->O            0   0.254   0.000  Mcompar_BUS_0009_INV_198_o_lutdi (Mcompar_BUS_0009_INV_198_o_lutdi)
      MUXCY:DI->O           1   0.181   0.000  Mcompar_BUS_0009_INV_198_o_cy<0> (Mcompar_BUS_0009_INV_198_o_cy<0>)
      MUXCY:CI->O           1   0.023   0.000  Mcompar_BUS_0009_INV_198_o_cy<1> (Mcompar_BUS_0009_INV_198_o_cy<1>)
      MUXCY:CI->O           1   0.023   0.000  Mcompar_BUS_0009_INV_198_o_cy<2> (Mcompar_BUS_0009_INV_198_o_cy<2>)
      MUXCY:CI->O           1   0.023   0.000  Mcompar_BUS_0009_INV_198_o_cy<3> (Mcompar_BUS_0009_INV_198_o_cy<3>)
-     MUXCY:CI->O          25   0.235   1.631  Mcompar_BUS_0009_INV_198_o_cy<4> (o<2>)
-     LUT3:I0->O            2   0.235   1.002  Mmux_a[9]_GND_15_o_MUX_318_o171 (a[9]_GND_15_o_MUX_325_o)
+     MUXCY:CI->O          35   0.235   1.798  Mcompar_BUS_0009_INV_198_o_cy<4> (o<2>)
+     LUT3:I0->O            2   0.235   1.002  Mmux_a[9]_GND_16_o_MUX_318_o171 (a[9]_GND_16_o_MUX_325_o)
      LUT4:I0->O            0   0.254   0.000  Mcompar_BUS_0010_INV_197_o_lutdi (Mcompar_BUS_0010_INV_197_o_lutdi)
      MUXCY:DI->O           1   0.181   0.000  Mcompar_BUS_0010_INV_197_o_cy<0> (Mcompar_BUS_0010_INV_197_o_cy<0>)
      MUXCY:CI->O           1   0.023   0.000  Mcompar_BUS_0010_INV_197_o_cy<1> (Mcompar_BUS_0010_INV_197_o_cy<1>)
      MUXCY:CI->O           1   0.023   0.000  Mcompar_BUS_0010_INV_197_o_cy<2> (Mcompar_BUS_0010_INV_197_o_cy<2>)
-     MUXCY:CI->O           2   0.235   0.726  Mcompar_BUS_0010_INV_197_o_cy<3> (Mcompar_BUS_0010_INV_197_o_cy<3>)
-     LUT4:I3->O            8   0.254   1.374  Mcompar_BUS_0010_INV_197_o_cy<4> (o<1>)
+     MUXCY:CI->O           5   0.235   0.841  Mcompar_BUS_0010_INV_197_o_cy<3> (Mcompar_BUS_0010_INV_197_o_cy<3>)
+     LUT4:I3->O           14   0.254   1.557  Mcompar_BUS_0010_INV_197_o_cy<4> (o<1>)
      LUT5:I0->O            2   0.254   1.002  Mmux_n044941 (n0449<3>)
      LUT4:I0->O            0   0.254   0.000  Mcompar_BUS_0011_INV_196_o_lutdi1 (Mcompar_BUS_0011_INV_196_o_lutdi1)
      MUXCY:DI->O           1   0.181   0.000  Mcompar_BUS_0011_INV_196_o_cy<1> (Mcompar_BUS_0011_INV_196_o_cy<1>)
      MUXCY:CI->O           1   0.023   0.000  Mcompar_BUS_0011_INV_196_o_cy<2> (Mcompar_BUS_0011_INV_196_o_cy<2>)
      MUXCY:CI->O           2   0.235   0.726  Mcompar_BUS_0011_INV_196_o_cy<3> (Mcompar_BUS_0011_INV_196_o_cy<3>)
-     LUT3:I2->O            1   0.254   0.000  Mcompar_BUS_0011_INV_196_o_cy<4>_G (N33)
-     MUXF7:I1->O           1   0.175   0.681  Mcompar_BUS_0011_INV_196_o_cy<4> (o<0>)
-     end scope: 'modd/GND_19_o_GND_19_o_div_14:o<0>'
-     DSP48A1:B0->P7        1   5.145   0.790  Maddsub_GND_19_o_GND_19_o_MuLt_15_OUT (GND_19_o_GND_19_o_sub_17_OUT<7>)
-     end scope: 'modd:GND_19_o_GND_19_o_sub_17_OUT<7>'
-     LUT6:I4->O            1   0.250   0.958  a<7>12 (a<7>11)
-     LUT6:I2->O            1   0.254   0.681  a<7>13 (io_led_23_OBUF)
+     LUT3:I2->O            1   0.254   0.000  Mcompar_BUS_0011_INV_196_o_cy<4>_G (N102)
+     MUXF7:I1->O          13   0.175   1.374  Mcompar_BUS_0011_INV_196_o_cy<4> (o<0>)
+     end scope: 'myalu/divider/GND_15_o_GND_15_o_div_14:o<0>'
+     end scope: 'myalu/divider:GND_15_o_GND_15_o_div_14_OUT<0>'
+     begin scope: 'myalu/modd:GND_15_o_GND_15_o_div_14_OUT<0>'
+     LUT4:I0->O            1   0.254   0.000  Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd5_lut<2> (Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd5_lut<2>)
+     MUXCY:S->O            1   0.215   0.000  Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd5_cy<2> (Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd5_cy<2>)
+     XORCY:CI->O           1   0.206   1.137  Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd5_xor<3> (Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd_35)
+     LUT6:I0->O            1   0.254   0.000  Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd7_lut<3> (Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd7_lut<3>)
+     MUXCY:S->O            1   0.215   0.000  Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd7_cy<3> (Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd7_cy<3>)
+     XORCY:CI->O           1   0.206   0.682  Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd7_xor<4> (Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd_47)
+     LUT2:I1->O            1   0.254   0.000  Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd8_lut<4> (Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd8_lut<4>)
+     MUXCY:S->O            1   0.215   0.000  Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd8_cy<4> (Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd8_cy<4>)
+     XORCY:CI->O           1   0.206   0.681  Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd8_xor<5> (Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd_58)
+     INV:I->O              1   0.255   0.000  Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd9_lut<5>_INV_0 (Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd9_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd9_cy<5> (Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd9_cy<5>)
+     XORCY:CI->O           1   0.206   0.682  Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd9_xor<6> (Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_6)
+     LUT2:I1->O            1   0.254   0.000  Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd_lut<6> (Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd_lut<6>)
+     MUXCY:S->O            0   0.215   0.000  Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd_cy<6> (Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd_cy<6>)
+     XORCY:CI->O           1   0.206   0.790  Maddsub_GND_20_o_GND_20_o_MuLt_15_OUT_Madd_xor<7> (GND_20_o_GND_20_o_sub_17_OUT<7>)
+     end scope: 'myalu/modd:GND_20_o_GND_20_o_sub_17_OUT<7>'
+     end scope: 'myalu:GND_20_o_GND_20_o_sub_17_OUT<7>'
+     LUT6:I4->O            1   0.250   0.790  Mmux_io_led1611 (Mmux_io_led1610)
+     LUT6:I4->O            1   0.250   0.681  Mmux_io_led1612 (io_led_23_OBUF)
      OBUF:I->O                 2.912          io_led_23_OBUF (io_led<23>)
     ----------------------------------------
-    Total                     47.688ns (17.339ns logic, 30.349ns route)
-                                       (36.4% logic, 63.6% route)
+    Total                     48.536ns (15.331ns logic, 33.205ns route)
+                                       (31.6% logic, 68.4% route)
 
 =========================================================================
 
 Cross Clock Domains Report:
 --------------------------
 
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   29.535|         |         |         |
+---------------+---------+---------+---------+---------+
+
 =========================================================================
 
 
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 8.04 secs
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 11.69 secs
  
 --> 
 
-Total memory usage is 305720 kilobytes
+Total memory usage is 306552 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   24 (   0 filtered)
-Number of infos    :    0 (   0 filtered)
+Number of warnings :   27 (   0 filtered)
+Number of infos    :   27 (   0 filtered)
 

@@ -2,181 +2,217 @@
 <DARoots Version="1" Minor="26">
   <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitxor_5.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitxor_8.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitxor_5.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitxor_8.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitxnor_16.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitxnor_19.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitxnor_16.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitxnor_19.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitsubtracter_2.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitsubtracter_5.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitsubtracter_2.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitsubtracter_5.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitSRA_9.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitSRA_12.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitSRA_9.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitSRA_12.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitshiftright_8.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitshiftright_11.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitshiftright_8.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitshiftright_11.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitshiftleft_7.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitshiftleft_10.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitshiftleft_7.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitshiftleft_10.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitor_4.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitor_7.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitor_4.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitor_7.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitnota_20.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitnota_23.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitnota_20.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitnota_23.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitnor_17.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitnor_20.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitnor_17.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitnor_20.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitnand_18.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitnand_21.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitnand_18.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitnand_21.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitmultiplier_14.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitmultiplier_17.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitmultiplier_14.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitmultiplier_17.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitmod_15.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitmod_18.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitmod_15.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitmod_18.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitequalsa_6.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitequalsa_9.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitequalsa_6.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitequalsa_9.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitdotproduct_19.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitdotproduct_22.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitdotproduct_19.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitdotproduct_22.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitdivider_13.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitdivider_16.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitdivider_13.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitdivider_16.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitCMPLT_11.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitCMPLT_14.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitCMPLT_11.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitCMPLT_14.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitCMPLE_12.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitCMPLE_15.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitCMPLE_12.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitCMPLE_15.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitCMPEQ_10.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitCMPEQ_13.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitCMPEQ_10.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitCMPEQ_13.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitand_3.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitand_6.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitand_3.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitand_6.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitadder_1.v">
+    <File Path="$PSRCDIR/sources_1/imports/verilog/eightbitadder_4.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitadder_1.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/eightbitadder_4.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/blinker_24.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/blinker_24.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_1.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/test_case_3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/test_case_3.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/reset_conditioner_2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/reset_conditioner_2.v"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
@@ -185,7 +221,7 @@
     <File Path="$PSRCDIR/sources_1/imports/verilog/mojo_top_0.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/mojo_top_0.v"/>
-        <Attr Name="ImportTime" Val="1477025402"/>
+        <Attr Name="ImportTime" Val="1477027256"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
