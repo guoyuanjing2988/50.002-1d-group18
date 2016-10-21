@@ -69,7 +69,6 @@ module alu (
     
       0: m=adder.out;
       1: m=subtracter.out;
-
       24: m=andd.out;
       30: m=orr.out;
       22: m=xorr.out;
